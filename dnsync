@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+
+DN_PATH="/home/jwebb/Obsidian/Daily\ Notes/"
+cd "$DN_PATH"
+
+CHANGES_EXIST="$(git status --porcelain | wc -l)"
+
+if [ "$CHANGES_EXIST" -eq 0]; then
+   exit 0
+fi
+
+git pull
+git add .
+git commit -m '[`hostname`] Sync Daily Notes $(date + "%Y-%m-%d %H:%M:%S")'
+git push -q
+
+

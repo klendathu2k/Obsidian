@@ -1,0 +1,124 @@
+{
+  "main": {
+    "id": "a564fc858a028650",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba88653386988b50",
+        "type": "leaf",
+        "dimension": 48.12909260991581,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SHREK.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "70e0ee1c8e0033ea",
+        "type": "leaf",
+        "dimension": 51.870907390084184,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "PanDA Links.md",
+            "mode": "preview",
+            "backlinks": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a67d7245ffd5c47e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bbf7b58abbc341e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ca4320edf582155",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "17e03d61e233f2df",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d7d427bf95043d0f",
+    "type": "split",
+    "children": [
+      {
+        "id": "37a8e4925260fa3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29635c9885845c03",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SHREK.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "194f8e68b118ee22",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SHREK.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ba88653386988b50",
+  "lastOpenFiles": [
+    "SHREK.md",
+    "PanDA Links.md",
+    "2022-03-15.md",
+    "2022-03-14.md",
+    "2022 Week 11.md",
+    "Pasted image 20220314155650.png",
+    "Pasted image 20220314120142.png",
+    "Pasted image 20220314103224.png"
+  ]
+}

@@ -1,0 +1,28 @@
+# geant4star status
+---
+![[Pasted image 20220316081737.png]]
+
+---
+
+ - Checks known to fail (must adjust environment before compile)
+	 - root 6.24 compiled locally w/ debug
+	 - geant3 vmc compiled locally w/ sensitive detector fix
+ - Code is compiled in EVAL (will release following this meeing)
+ - To run
+	 > $ starver eval
+	 > $ source $STAR/setup
+	 > $ ln -s StRoot/StGeant4Maker/tests .
+	 > $ ln -s StRoot/StGeant4Maker/macros .
+	 > $ geant4star -q -b --geant321 --application:engine=multi tests/unit_test_tpc_hits.C
+
+---
+## Integration
+- Made two Pull Requests to move code which does not depend on g4star 
+	-  [Closed PR#305](https://github.com/star-bnl/star-sw/pull/305)
+	-  [Open PR#308](https://github.com/star-bnl/star-sw/pull/308)
+
+- Large PR draft to pull in geant4maker code and related changes
+	- Draft [PR#311](https://github.com/star-bnl/star-sw/pull/311)
+
+
+

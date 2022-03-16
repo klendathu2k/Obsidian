@@ -125,7 +125,7 @@ github pages has a 1GB limit... so this has to be pretty lightweight.   So the d
 
 	
 ## New strategy... copy back direct / copy in direct
-- Avoids using 
+- Avoids using PanDA's output / input strategy and just copy the files in direct from the filesystem... *this* **is** ***NAUGHTY***... use rsync, limit the number of jobs, and 
 
 ## Test simple chain / PanDA
 [simple task chain](https://panda-wms.readthedocs.io/en/latest/client/pchain.html#simple-task-chain)

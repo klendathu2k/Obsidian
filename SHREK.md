@@ -125,7 +125,10 @@ github pages has a 1GB limit... so this has to be pretty lightweight.   So the d
 
 	
 ## New strategy... copy back direct / copy in direct
-- Avoids using PanDA's output / input strategy and just copy the files in direct from the filesystem... *this* **is** ***NAUGHTY***... use rsync, limit the number of jobs, and 
+- Avoids using PanDA's output / input strategy and just copy the files in direct from the filesystem... *this* **is** ***NAUGHTY***... use rsync, limit the number of jobs, and pray that it does not break things.
+- Will want to control the jobs via environment variables... [CWL environment](https://www.commonwl.org/user_guide/12-env/index.html)  ... so that to modify the job only need to change the YAML file.
+- Will use a shell script for each pass
+- Now I need to know whether pass2 depends on pass1 or not... (try to answer myself before spamming Chris... need to familiarize with the codes, and this is a starting point, ... but don't waste too much time this afternoon...
 
 ## Test simple chain / PanDA
 [simple task chain](https://panda-wms.readthedocs.io/en/latest/client/pchain.html#simple-task-chain)

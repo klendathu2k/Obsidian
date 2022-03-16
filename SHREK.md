@@ -136,6 +136,9 @@ github pages has a 1GB limit... so this has to be pretty lightweight.   So the d
 
 	![[Pasted image 20220316140833.png|400]]
 	
+	- The CWL file should specify two jobs which are independent of each other... pass1 and pass2.fetch, followed by the pass2.merge operation.
+	
+	
 ## Test simple chain / PanDA
 [simple task chain](https://panda-wms.readthedocs.io/en/latest/client/pchain.html#simple-task-chain)
 

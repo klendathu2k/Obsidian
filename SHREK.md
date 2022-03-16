@@ -124,6 +124,9 @@ github pages has a 1GB limit... so this has to be pretty lightweight.   So the d
 
 
 	
+## New strategy... copy back direct / copy in direct
+- Avoids using 
+
 ## Test simple chain / PanDA
 [simple task chain](https://panda-wms.readthedocs.io/en/latest/client/pchain.html#simple-task-chain)
 
@@ -186,7 +189,4 @@ Goal for this work period is to demonstrate *pchain* based simulation production
 	- [  ] pass 1 file with minbias events generated in pass 2?
 	- [  ] pass 1 file with sampled set of pass 1 files?  (faster, but biased).
 
-
-
-
-
+	

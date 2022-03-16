@@ -26,19 +26,19 @@
 
  To build
  - $ git clone https://github.com/klendathu2k/star-sw-1
- - $ git branch star-main-geant4
- - $ source $STAR/setup
- - $ ln -s StRoot/StGeant4Maker/tests .
- - $ ln -s StRoot/StGeant4Maker/macros .
- - $ geant4star -q -b --geant321 --application:engine=multi tests/unit_test_tpc_hits.C
+ - $ git checkout star-main-geant4star
+ - $ source StRoot/StGeant4Maker/etc/setup
+ - $ source StRoot/StGeant4Maker/etc/build
+ - Make coffee / drink coffee / repeat
 
 ---
 
- To run
+ To run (from eval)
  - $ starver eval
  - $ source $STAR/setup
  - $ ln -s StRoot/StGeant4Maker/tests .
  - $ ln -s StRoot/StGeant4Maker/macros .
+ (Just the following for a local build...)
  - $ geant4star -q -b --geant321 --application:engine=multi tests/unit_test_tpc_hits.C
 
 

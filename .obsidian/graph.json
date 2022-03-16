@@ -5,10 +5,10 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "2022",
+      "query": "2022-",
       "color": {
         "a": 1,
         "rgb": 14701138
@@ -16,11 +16,11 @@
     }
   ],
   "collapse-display": true,
-  "showArrow": false,
+  "showArrow": true,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": false,
+  "nodeSizeMultiplier": 0.892454594017094,
+  "lineSizeMultiplier": 2.02322382478632,
+  "collapse-forces": true,
   "centerStrength": 0.574252136752137,
   "repelStrength": 9.43376068376068,
   "linkStrength": 0.805021367521368,

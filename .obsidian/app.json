@@ -1,5 +1,6 @@
 {
   "foldHeading": true,
   "foldIndent": true,
-  "lineWrap": true
+  "lineWrap": true,
+  "alwaysUpdateLinks": true
 }

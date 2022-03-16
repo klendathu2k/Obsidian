@@ -142,6 +142,9 @@ github pages has a 1GB limit... so this has to be pretty lightweight.   So the d
 		- ... may need to install Node.js ...
 		- For now... just cast these to strings... they are destined for environment variables anyhow
 		- Actually... integer types are handled differently than strings... $(inputs.stringy) versus inputs.integery
+		
+		
+
 	
 ## Test simple chain / PanDA
 [simple task chain](https://panda-wms.readthedocs.io/en/latest/client/pchain.html#simple-task-chain)
@@ -202,7 +205,8 @@ So... need to use something like
 
 Goal for this work period is to demonstrate *pchain* based simulation production using the 2-pass pp200 GeV simulation for the current MDC.  Chris has handed me the workflow, ... covering two passes.  An initial simulation, producing N hits files.  And a follow on pass2 pileup simulation, producing N hits files w/ pileup.
 - Question: how is the pileup simulated?  
-	- [  ] pass 1 file with minbias events generated in pass 2?
-	- [  ] pass 1 file with sampled set of pass 1 files?  (faster, but biased).
+	- --> pass 1 file plus pre-generated background files
+	
 
+	
 	

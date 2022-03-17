@@ -37,9 +37,10 @@ The prodution system should be designed to support the needs of a nuclear physic
 ## Common Workflow Language
 The [Common Workflow Language](https://www.commonwl.org/) is a json and YAML based language which can be used to specify multiple, dependent jobs in a workflow that correspond to a directed acyclic graph, with each individual compute task represented by a node in the graph. ^b9e7f8
 
-### Useful features
+### Useful features / examples
 [Create files at runtime](https://www.commonwl.org/user_guide/14-runtime/index.html) ^517f5f
 
+[Setting environment variables in a workflow...](https://cwl-for-eo.github.io/guide/how-to/cwl-how-to/environment-variable/)
 
 ## sPHENIX Production Chain Notes
 ![[Pasted image 20220314120142.png]]

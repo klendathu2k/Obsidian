@@ -151,6 +151,12 @@ Okay.  Let's focus on the immediate task at hand.  Production of simulation samp
 - Setup a PanDA prun test... with a single shell script realizing the sPHENIX mdc2.4 build environment and printing it...
 	- prun is supposed to stage files.  Does pchain?  What about Tadashi's instruction to not perform a build step?  So very confusing.
 
+/sphenix/user seems to (a) be writable by me and (b) has free space.  So disk space issue is resolved.
+
+But still can't get the #@$!ing PanDA to play any tricks... sit, roll over, come here and definitely not fetch.  Blah.
+
+
+
 
 So let's try the following.  We will start with the [pchain example]()
 	

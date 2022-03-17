@@ -124,6 +124,28 @@ github pages has a 1GB limit... so this has to be pretty lightweight.   So the d
 
 
 	
+## New strategy... copy back direct / copy in direct
+- Avoids using PanDA's output / input strategy and just copy the files in direct from the filesystem... *this* **is** ***NAUGHTY***... use rsync, limit the number of jobs, and pray that it does not break things.
+- Will want to control the jobs via environment variables... [CWL environment](https://www.commonwl.org/user_guide/12-env/index.html)  ... so that to modify the job only need to change the YAML file.
+- Will use a shell script for each pass
+- Now I need to know whether pass2 depends on pass1 or not... (try to answer myself before spamming Chris... need to familiarize with the codes, and this is a starting point, ... but don't waste too much time this afternoon...
+	- Takes a list of background files... not yet sure where that is defined...
+	- OMFG they use a perl script.  
+		- Background list is a set of files pulled in from a file catalog query...
+	- So.... pchain will need to stage background files...  And I think it will be a workflow that looks more like the following...
+
+	![[Pasted image 20220316140833.png|400]]
+	
+	- The CWL file should specify two jobs which are independent of each other... pass1 and pass2.fetch, followed by the pass2.merge operation.
+	- Having trouble handling non-string inputs....
+		- May need to use a javascript expression in the workflow ...
+		- ... may need to install Node.js ...
+		- For now... just cast these to strings... they are destined for environment variables anyhow
+		- Actually... integer types are handled differently than strings... $(inputs.stringy) versus inputs.integery
+		
+		
+
+	
 ## Test simple chain / PanDA
 [simple task chain](https://panda-wms.readthedocs.io/en/latest/client/pchain.html#simple-task-chain)
 
@@ -183,10 +205,8 @@ So... need to use something like
 
 Goal for this work period is to demonstrate *pchain* based simulation production using the 2-pass pp200 GeV simulation for the current MDC.  Chris has handed me the workflow, ... covering two passes.  An initial simulation, producing N hits files.  And a follow on pass2 pileup simulation, producing N hits files w/ pileup.
 - Question: how is the pileup simulated?  
-	- [ ] pass 1 file with minbias events generated in pass 2?
-	- [ ] pass 1 file with sampled set of pass 1 files?  (faster, but biased).
+	- --> pass 1 file plus pre-generated background files
+	
 
-
-
-
-
+	
+	

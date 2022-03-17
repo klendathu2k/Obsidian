@@ -147,6 +147,10 @@ github pages has a 1GB limit... so this has to be pretty lightweight.   So the d
 		
 Okay.  Let's focus on the immediate task at hand.  Production of simulation samples.   THe workflow is simple:   (1) produce a simulated set of events (2) merge with pileup hits.  This is a simple linear chain _assuming_ that the minbias files have been prestaged.
 
+[prun documentation](https://panda-wms.readthedocs.io/en/latest/client/prun.html#running-with-input-files-and-a-separate-build-step) implies that the contents of the cwd are staged to the remote resource.  
+- Setup a PanDA prun test... with a single shell script realizing the sPHENIX mdc2.4 build environment and printing it...
+
+
 So let's try the following.  We will start with the [pchain example]()
 	
 ## Test simple chain / PanDA

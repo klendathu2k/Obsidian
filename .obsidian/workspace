@@ -1,16 +1,16 @@
 {
   "main": {
-    "id": "a564fc858a028650",
+    "id": "2902883863920934",
     "type": "split",
     "children": [
       {
-        "id": "70e0ee1c8e0033ea",
+        "id": "8ffcafa78173ed4f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Useful Obsidian Note Links.md",
-            "mode": "preview",
+            "file": "2022-03-17.md",
+            "mode": "source",
             "backlinks": true
           }
         }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a67d7245ffd5c47e",
+    "id": "8b754e685ce01084",
     "type": "split",
     "children": [
       {
-        "id": "7bbf7b58abbc341e",
+        "id": "12ebf5717f056c1a",
         "type": "tabs",
         "children": [
           {
-            "id": "9ca4320edf582155",
+            "id": "e16e433c6cd0bd55",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "17e03d61e233f2df",
+            "id": "47babc888ee49ac7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -53,27 +53,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 195
+    "width": 300
   },
   "right": {
-    "id": "d7d427bf95043d0f",
+    "id": "95e9a6685d3f4a91",
     "type": "split",
     "children": [
       {
-        "id": "37a8e4925260fa3c",
+        "id": "e9da0a48004a45e0",
         "type": "tabs",
         "children": [
           {
-            "id": "29635c9885845c03",
+            "id": "de9e797cab4a9f03",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Useful Obsidian Note Links.md",
-=======
-                "file": "SHREK.md",
->>>>>>> b1f2e33a4e5259f09e921fa1253dc0d63e5974b1
+                "file": "2022-03-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,16 +81,12 @@
             }
           },
           {
-            "id": "194f8e68b118ee22",
+            "id": "03d4a59a7683cbfa",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "Useful Obsidian Note Links.md"
-=======
-                "file": "SHREK.md"
->>>>>>> b1f2e33a4e5259f09e921fa1253dc0d63e5974b1
+                "file": "2022-03-17.md"
               }
             }
           }
@@ -105,21 +97,8 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "70e0ee1c8e0033ea",
+  "active": "8ffcafa78173ed4f",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Useful Obsidian Note Links.md",
-=======
-    "SHREK.md",
-    "geant4star status.md",
->>>>>>> b1f2e33a4e5259f09e921fa1253dc0d63e5974b1
-    "2022 Week 11.md",
-    "2022-03-16.md",
-    "geant4star status.md",
-    "PanDA Links.md",
-    "2022-03-15.md",
-    "2022-03-14.md",
-    "Pasted image 20220314155650.png",
-    "Pasted image 20220314120142.png"
+    "2022-03-17.md"
   ]
 }

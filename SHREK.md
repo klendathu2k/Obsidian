@@ -145,7 +145,9 @@ github pages has a 1GB limit... so this has to be pretty lightweight.   So the d
 		- Actually... integer types are handled differently than strings... $(inputs.stringy) versus inputs.integery
 		
 		
+Okay.  Let's focus on the immediate task at hand.  Production of simulation samples.   THe workflow is simple:   (1) produce a simulated set of events (2) merge with pileup hits.  This is a simple linear chain _assuming_ that the minbias files have been prestaged.
 
+So let's try the following.  We will start with the [pchain example]()
 	
 ## Test simple chain / PanDA
 [simple task chain](https://panda-wms.readthedocs.io/en/latest/client/pchain.html#simple-task-chain)

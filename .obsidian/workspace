@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022 Week 11.md",
-            "mode": "source",
+            "file": "Useful Obsidian Note Links.md",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022 Week 11.md",
+                "file": "Useful Obsidian Note Links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022 Week 11.md"
+                "file": "Useful Obsidian Note Links.md"
               }
             }
           }
@@ -109,6 +109,7 @@
   },
   "active": "ba88653386988b50",
   "lastOpenFiles": [
+    "Useful Obsidian Note Links.md",
     "2022 Week 11.md",
     "2022-03-16.md",
     "geant4star status.md",
@@ -117,7 +118,6 @@
     "2022-03-14.md",
     "SHREK.md",
     "Pasted image 20220314155650.png",
-    "Pasted image 20220314120142.png",
-    "Pasted image 20220314103224.png"
+    "Pasted image 20220314120142.png"
   ]
 }

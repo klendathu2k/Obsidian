@@ -149,6 +149,7 @@ Okay.  Let's focus on the immediate task at hand.  Production of simulation samp
 
 [prun documentation](https://panda-wms.readthedocs.io/en/latest/client/prun.html#running-with-input-files-and-a-separate-build-step) implies that the contents of the cwd are staged to the remote resource.  
 - Setup a PanDA prun test... with a single shell script realizing the sPHENIX mdc2.4 build environment and printing it...
+	- prun is supposed to stage files.  Does pchain?  What about Tadashi's instruction to not perform a build step?  So very confusing.
 
 
 So let's try the following.  We will start with the [pchain example]()

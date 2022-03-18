@@ -1,0 +1,3 @@
+CWL is *annoying as frell* b/c you must be explict about everything.  It starts up with an *empty* environment, and setting environment variables has to be done variable-by-variable in **both** the CWL file and the supporting YAML inputs file.  So we need to wrap individial pieces of workflow in *shell scripts*, which either need to be in the system path (not happening) or in a docker container (again a pain in the assembler) or we go through the following hoops to stage and execute the script 
+
+- [Howto stage and run a shell script](https://github.com/common-workflow-language/user_guide/issues/158)

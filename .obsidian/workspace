@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022 Week 12/2022-03-21.md",
+            "file": "2022 Week 12/2022-03-22.md",
             "mode": "source",
             "backlinks": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022 Week 12/2022-03-21.md",
+                "file": "2022 Week 12/2022-03-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022 Week 12/2022-03-21.md"
+                "file": "2022 Week 12/2022-03-22.md"
               }
             }
           }
@@ -99,15 +99,15 @@
   },
   "active": "8ffcafa78173ed4f",
   "lastOpenFiles": [
+    "2022 Week 12/2022-03-22.md",
     "2022 Week 12/2022-03-21.md",
+    "Pasted image 20220316082222.png",
     "StEvent/StEvent.md",
     "2022 Week 11/2022 03-14 to 03-18.md",
     "Common Workflow Language/CWL Notes.md",
     "2022 Week 11/2022-03-18.md",
     "Useful Obsidian Note Links.md",
     "2022 Week 11/2022-03-17.md",
-    "2022 Week 11/2022-03-16.md",
-    "2022 Week 11/2022-03-15.md",
-    "2022 Week 11/2022-03-14.md"
+    "2022 Week 11/2022-03-16.md"
   ]
 }

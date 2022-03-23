@@ -18,7 +18,19 @@ Documentation is the language specification / Tutorials are far too trivial
 ---
 
 Important to note:
-- CWL is used by *panda* 
+- CWL is used by *panda* to run *prun tasks* on the remote PanDA server
+
+- all production codes must be wrapped by a script which 
+	- sets up the environment
+	- manages job parameters (such as run number, sequence/RNG number, etc...), some of which are generated per job by PanDA
+
+---
+
+Also important to note:
+- Having used SUMS for the better part of two decades now... some of my normal expectations are inverted...
+
+With SUMS, you must be explicit about staging artifacts to the remote system (scripts, macros, etc...)
+With PanDA, the files in your CWD are recurssively staged (up to a size limit which can be changed)
 
 ---
 

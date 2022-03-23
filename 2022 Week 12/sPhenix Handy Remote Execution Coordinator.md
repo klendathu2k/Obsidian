@@ -35,8 +35,16 @@ Important to note:
 
 ---
 
+`prun --exec "run_hfprod.sh mdc2.7 1 Charm TestSimulation ./ 1234567890 %RNDM:00001" --outDS user.jwebb2.`uuidgen` --noBuild --vo wlcg --site BNL_OSG_SPHENIX --prodSourceLabel test --workingGroup ${PANDA_AUTH_VO} --maxAttempt 1 --followLinks --cpuTimePerEvent=1200 --maxWalltime 24 --memory 2048`
 
-[Task 11013](https://panda-doma.cern.ch/task/11013/)
+[Task 11014](https://panda-doma.cern.ch/task/11014/)
+
+---
+
+run_hfprod.sh mdc2.7 1 Charm TestSimulation ./ 1234567890 %RNDM:00001
+
+run_hfprod.sh mdc2.7 1 Charm TestSimulation ./ 1234567890 %RNDM:00001
+
 
 
 ---

@@ -51,6 +51,8 @@ But... bottom line is that the *macro itself* becomes part of the job documentat
 
 So... rather than maintaining a single steering macro which accepts an easily documented list of chain options, sPHENIX has chosen to implement production specific steering macros.
 
+Within the pass1 macro they invoke a perl script to copy back.
+
 ### Production Tagging Convention
 Each data production campaign should be uniquely identifiable through a single tag.  That tag should serve as a searchable index, allowing the user to recover all production artifacts, as well as to reproduce the data sample from the documented inputs.  Thus, the tag should minimally contain the following:
 

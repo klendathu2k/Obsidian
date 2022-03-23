@@ -48,12 +48,21 @@ Inside of run_hfprod.sh stdout is redirected to /sphenix/user/sphnxpro/out.txt
 ---
 
 > $ tail -n 28 /sphenix/user/sphnxpro/out.txt | grep *.root
-
+>  .rootrc
+> G4Test_Charm-1234567890-00002.root
 
 ---
 
- Framework for Remote Execution Development (FRED) *alternate title...*
-![[Pasted image 20220323094628.png]]
+## Current status
+
+1. pass1 runs and can be scaled to more nevents and jobs
+2. root files *can* be copied back to /sphenix/users/sphnxpro directly...
+	-	would prefer to stage back via rucio ...
+3. next step is to get pass2 up and running
+
+---
+
+Other possible names...
 
 ---
 
@@ -61,6 +70,12 @@ Networkable Execution Modeling Objects (NEMO) *... stretching things a bit...*
 ![[Pasted image 20220323095228.png|400]]
 
 ---
+
+Framework for Remote Execution Development (FRED) *alternate title...*
+![[Pasted image 20220323094628.png]]
+
+---
+
 
 
 

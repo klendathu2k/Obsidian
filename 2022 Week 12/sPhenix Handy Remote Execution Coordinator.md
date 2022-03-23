@@ -7,6 +7,11 @@
 
 ---
 
+Tagging convention thoughts...
+![[Pasted image 20220323125215.png]]
+
+---
+
 CWL --> [Common Workflow Language](https://www.commonwl.org/)
 
 ---

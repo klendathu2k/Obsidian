@@ -26,11 +26,18 @@ Important to note:
 
 ---
 
-Also important to note:
-- Having used SUMS for the better part of two decades now... some of my normal expectations are inverted...
+### First attempt: MDC Pythia HF Workflow
 
-With SUMS, you must be explicit about staging artifacts to the remote system (scripts, macros, etc...)
-With PanDA, the files in your CWD are recurssively staged (up to a size limit which can be changed)
+- pass1 - generate HF pythia events
+- pass2 - merge pythia events with pre-generated 
+
+![[Pasted image 20220316140833.png|400]]
+
+---
+
+
+[Task 11013](https://panda-doma.cern.ch/task/11013/)
+
 
 ---
 

@@ -10,17 +10,17 @@
 CWL --> [Common Workflow Language](https://www.commonwl.org/)
 
 ---
-- Extremely pendantic language
-- Many examples on the internets... 
-	- mostly in 
-	- unfamiliar domain (bioinformatics)
-- Usage in PanDA is constrained (wrapper around *prun*)
+
+Documentation is the language specification / Tutorials are far too trivial
 
 ![|400](https://lh3.googleusercontent.com/ZRFfya9MXZBd8nmAErP_oei8r1uFAGE7Yxkl1dFqvNbqw3GP74_BAyxc4WXeAnbMmDuSiR28UE68p__IGIgirtB4wRdWBPOAN1-nz_UHoGuzY9pmwnRUQkOnLmk_EYXcvSX42vt7)
 
-
 ---
 
+Important to note:
+- CWL is used by *panda* 
+
+---
 
  Framework for Remote Execution Development (FRED) *alternate title...*
 ![[Pasted image 20220323094628.png]]

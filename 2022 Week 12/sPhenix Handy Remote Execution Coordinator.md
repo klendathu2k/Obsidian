@@ -35,16 +35,19 @@ Important to note:
 
 ---
 
+> run_hfprod.sh *build* *nevents* *type* *job name* *output directory* *run number* *sequence number*
+
+Inside of run_hfprod.sh stdout is redirected to /sphenix/user/sphnxpro/out.txt
+
+---
+
 `prun --exec "run_hfprod.sh mdc2.7 1 Charm TestSimulation ./ 1234567890 %RNDM:00001" --outDS user.jwebb2.`uuidgen` --noBuild --vo wlcg --site BNL_OSG_SPHENIX --prodSourceLabel test --workingGroup ${PANDA_AUTH_VO} --maxAttempt 1 --followLinks --cpuTimePerEvent=1200 --maxWalltime 24 --memory 2048`
 
 [Task 11014](https://panda-doma.cern.ch/task/11014/)
 
 ---
 
-run_hfprod.sh mdc2.7 1 Charm TestSimulation ./ 1234567890 %RNDM:00001
-
-run_hfprod.sh mdc2.7 1 Charm TestSimulation ./ 1234567890 %RNDM:00001
-
+> $ tail -n 28 /sphenix/user/sphnxpro/out.txt | grep *.root
 
 
 ---

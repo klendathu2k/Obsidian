@@ -8,10 +8,16 @@
 ---
 
 CWL --> [Common Workflow Language](https://www.commonwl.org/)
-- Widely used in *bioinformatics*: + many examples, - outside familiar domain
-- Constrained usage in panda... 
-	- CWL executed on the PanDA server
-	- 
+
+---
+- Extremely pendantic language
+- Many examples on the internets... 
+	- mostly in 
+	- unfamiliar domain (bioinformatics)
+- Usage in PanDA is constrained (wrapper around *prun*)
+
+![|400](https://lh3.googleusercontent.com/ZRFfya9MXZBd8nmAErP_oei8r1uFAGE7Yxkl1dFqvNbqw3GP74_BAyxc4WXeAnbMmDuSiR28UE68p__IGIgirtB4wRdWBPOAN1-nz_UHoGuzY9pmwnRUQkOnLmk_EYXcvSX42vt7)
+
 
 ---
 

@@ -1,2 +1,1 @@
-[PanDA Job Monitoring](https://panda-doma.cern.ch/)
-[PanDA Documentation](https://panda-wms.readthedocs.io/en/latest/index.html)
+##### [PanDA Job Monitoring](https://panda-doma.cern.ch/)[PanDA Workflow Progress](https://panda-doma.cern.ch/idds/wfprogress/)[PanDA Documentation](https://panda-wms.readthedocs.io/en/latest/index.html)

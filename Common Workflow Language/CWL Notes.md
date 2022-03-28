@@ -7,6 +7,12 @@ The problem is this... I want to use a shell script to wrap a root macro.  But t
 How do I stage files *that are not known to CWL?*
 - [Howto stage secondary files](https://cwl.discourse.group/t/how-to-stage-secondary-files-for-basecommand/130)
 
+Create files at runtime
+- [HOWTO](https://www.commonwl.org/user_guide/14-runtime/index.html)
+
+MIscellaneous
+
+- [Best Practices](http://www.commonwl.org/user_guide/rec-practices/)
 
 - [CWL Tools / Ecosystem](https://www.commonwl.org/tools/)
 	- [Janis Transpiler](https://github.com/PMCC-BioinformaticsCore/janis)

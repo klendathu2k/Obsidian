@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022 Week 13/2022-03-28.md",
+            "file": "Useful Obsidian Note Links.md",
             "mode": "source",
             "backlinks": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022 Week 13/2022-03-28.md",
+                "file": "Useful Obsidian Note Links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022 Week 13/2022-03-28.md"
+                "file": "Useful Obsidian Note Links.md"
               }
             }
           }
@@ -99,11 +99,11 @@
   },
   "active": "8ffcafa78173ed4f",
   "lastOpenFiles": [
+    "Useful Obsidian Note Links.md",
     "2022 Week 13/2022-03-28.md",
     "2022 Week 12/sPhenix Handy Remote Execution Coordinator.md",
     "2022 Week 12/2022-03-24.md",
     "2022 Week 12/2022-03-25.md",
-    "Useful Obsidian Note Links.md",
     "StEvent/StEvent.md",
     "geant4star/geant4star status.md",
     "geant4star/Pasted image 20220316081737.png",

@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8ffcafa78173ed4f",
+        "id": "ab53d33dd140a095",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Common Workflow Language/CWL Notes.md",
-            "mode": "source",
-            "backlinks": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Common Workflow Language/CWL Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Common Workflow Language/CWL Notes.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -97,10 +90,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8ffcafa78173ed4f",
+  "active": "ab53d33dd140a095",
   "lastOpenFiles": [
-    "Common Workflow Language/CWL Notes.md",
     "2022 Week 13/2022-03-29.md",
+    "Common Workflow Language/CWL Notes.md",
     "2022 Week 13/2022-03-28.md",
     "Useful Obsidian Note Links.md",
     "2022 Week 12/sPhenix Handy Remote Execution Coordinator.md",

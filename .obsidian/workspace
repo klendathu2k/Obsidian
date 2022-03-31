@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022 Week 13/2022-03-31.md",
-            "mode": "source",
+            "file": "000 Sticky Notes/Upcoming.md",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022 Week 13/2022-03-31.md",
+                "file": "000 Sticky Notes/Upcoming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022 Week 13/2022-03-31.md"
+                "file": "000 Sticky Notes/Upcoming.md"
               }
             }
           }
@@ -99,6 +99,7 @@
   },
   "active": "ab53d33dd140a095",
   "lastOpenFiles": [
+    "000 Sticky Notes/Upcoming.md",
     "2022 Week 13/2022-03-31.md",
     "Templates/Friday.md",
     "2022 Week 13/2022-03-30.md",
@@ -107,7 +108,6 @@
     "2022 Week 13/2022-03-29.md",
     "geant4star/geant4star status.md",
     "2022 Week 13/2022-03-28.md",
-    "Useful Obsidian Note Links.md",
-    "2022 Week 12/sPhenix Handy Remote Execution Coordinator.md"
+    "Useful Obsidian Note Links.md"
   ]
 }

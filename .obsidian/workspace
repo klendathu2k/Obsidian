@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Templates/Friday.md",
+            "file": "2022 Week 13/2022-03-31.md",
             "mode": "source",
             "backlinks": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Friday.md",
+                "file": "2022 Week 13/2022-03-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Friday.md"
+                "file": "2022 Week 13/2022-03-31.md"
               }
             }
           }
@@ -99,8 +99,8 @@
   },
   "active": "ab53d33dd140a095",
   "lastOpenFiles": [
-    "Templates/Friday.md",
     "2022 Week 13/2022-03-31.md",
+    "Templates/Friday.md",
     "2022 Week 13/2022-03-30.md",
     "Common Workflow Language/CWL Notes.md",
     "2022 Week 13/STAR S&C 03-30-2022.md",

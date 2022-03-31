@@ -1,0 +1,3 @@
+## Friday {{date}}
+
+- [ ] 0830AM [NPPS Weekly Meeting](https://docs.google.com/document/d/1YfTyXPeXNQU4XUB28bvHJolgyBIJ2bfrd0u9Gd3WD70/edit)[zoom](https://bnl.zoomgov.com/j/16157150845?pwd=NXNqTi9ZWEFBKzYwRXQ5U3NXU1dBZz09)

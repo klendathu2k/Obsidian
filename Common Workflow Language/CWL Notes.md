@@ -19,6 +19,11 @@ Unit tests for CWL
 MIscellaneous
 - [Best Practices](http://www.commonwl.org/user_guide/rec-practices/)
 
+
+Mark an input as optional w/ ? after the type.  If it is not provided, then $(inputs.value) will be null.
+
+Arrays of values evaluate to [1,2,3,4,...]... pythonic arrays, not bash style.
+
 - [CWL Tools / Ecosystem](https://www.commonwl.org/tools/)
 	- [Janis Transpiler](https://github.com/PMCC-BioinformaticsCore/janis)
 	- [scriptcwl python driver](https://github.com/NLeSC/scriptcwl)

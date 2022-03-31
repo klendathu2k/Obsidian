@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022 Week 13/2022-03-30.md",
+            "file": "Templates/Friday.md",
             "mode": "source",
             "backlinks": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022 Week 13/2022-03-30.md",
+                "file": "Templates/Friday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022 Week 13/2022-03-30.md"
+                "file": "Templates/Friday.md"
               }
             }
           }
@@ -99,6 +99,8 @@
   },
   "active": "ab53d33dd140a095",
   "lastOpenFiles": [
+    "Templates/Friday.md",
+    "2022 Week 13/2022-03-31.md",
     "2022 Week 13/2022-03-30.md",
     "Common Workflow Language/CWL Notes.md",
     "2022 Week 13/STAR S&C 03-30-2022.md",
@@ -106,8 +108,6 @@
     "geant4star/geant4star status.md",
     "2022 Week 13/2022-03-28.md",
     "Useful Obsidian Note Links.md",
-    "2022 Week 12/sPhenix Handy Remote Execution Coordinator.md",
-    "2022 Week 12/2022-03-24.md",
-    "2022 Week 12/2022-03-25.md"
+    "2022 Week 12/sPhenix Handy Remote Execution Coordinator.md"
   ]
 }

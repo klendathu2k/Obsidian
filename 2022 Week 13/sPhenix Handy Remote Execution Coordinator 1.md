@@ -50,11 +50,16 @@ G4Test_Charm-1234567890-00002.root
 
 ---
 
+![[Pasted image 20220401095632.png|400]]
+
 ```
 pchain -cwl shrek/shrek.cwl -yaml sP22aa-mdc2.7/job/hfprod-pass1.yaml \
        --outDS user.jwebb2.sP22aa-mdc2.7 \
 	   ...
 ```
+
+
+---
 
 - Generic CWL "working" standalone under cwl-runner (no pchain submission)
 - Testing submission to PanDA today... 
@@ -72,7 +77,8 @@ sPHENIX Handy Remote Execution Koordinator
 1. pass1 runs with direct submission with prun
 	- root files *can* be copied back to /sphenix/users/sphnxpro directly...
 	- would prefer to stage back via rucio ...
-2. working to generalize so that the job description is expressed as a single yaml file input to pchain... (more discussion on Wednesday)
+2. no show stoppers for pass2...
+3. working to generalize so that the job description is expressed as a single yaml file input to pchain... (more discussion on Wednesday)
 
 ---
 

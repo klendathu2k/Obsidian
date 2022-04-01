@@ -1,8 +1,8 @@
  ### Towards a Production System for sPHENIX
  
  ![SHREK|900](https://lh4.googleusercontent.com/G5w4P1uwUYpU-ObA8T3fDdm27jEm66IxTQ-sHTB8_LGZQbZpQK4xGBMeMpDTHxCBIPt9_vnBkuWdjTYcaTGBhjLEMC4giqNX_YLv9d5RR6G4mJgOiw9O9e1q4l-GcA1dZMVp1Nl-) 
- 
- ---
+
+---
 
 ### Design Goals
 - Reproducibility
@@ -21,6 +21,7 @@
 
 ... reconstruction passes to be implemented next
 
+
 ---
 
 [Task 11014](https://panda-doma.cern.ch/task/11014/)
@@ -37,6 +38,7 @@ prun --exec "run_hfprod.sh mdc2.7 1 Charm TestSimulation ./
 
 
 ---
+
 
 ```
 $ tail -n 28 /sphenix/user/sphnxpro/out.txt | grep *.root
@@ -58,7 +60,6 @@ pchain -cwl shrek/shrek.cwl -yaml sP22aa-mdc2.7/job/hfprod-pass1.yaml \
        --outDS user.jwebb2.sP22aa-mdc2.7 \
 	   ...
 ```
-
 
 ---
 

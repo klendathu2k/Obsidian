@@ -14,18 +14,6 @@
             "backlinks": true
           }
         }
-      },
-      {
-        "id": "1f0861268ff69074",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Templates/Friday.md",
-            "mode": "source",
-            "backlinks": true
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -112,14 +100,14 @@
   "active": "ab53d33dd140a095",
   "lastOpenFiles": [
     "2022 Week 13/sPhenix Handy Remote Execution Coordinator 1.md",
-    "Templates/Friday.md",
     "2022 Week 13/2022-04-01.md",
+    "2022 Week 13/Pasted image 20220331101703.png",
+    "2022 Week 13/2022-03-28.md",
+    "Templates/Friday.md",
     "SHREK.md",
     "2022 Week 12/sPhenix Handy Remote Execution Coordinator.md",
     "2022 Week 13/2022-03-31.md",
     "000 Sticky Notes/Upcoming.md",
-    "2022 Week 13/2022-03-30.md",
-    "Common Workflow Language/CWL Notes.md",
-    "2022 Week 13/STAR S&C 03-30-2022.md"
+    "2022 Week 13/2022-03-30.md"
   ]
 }

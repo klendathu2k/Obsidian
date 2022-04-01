@@ -30,15 +30,27 @@ Tagging convention
 
 ---
 
-`prun --exec "run_hfprod.sh mdc2.7 1 Charm TestSimulation ./ 1234567890 %RNDM:00001" --outDS user.jwebb2.`uuidgen` --noBuild --vo wlcg --site BNL_OSG_SPHENIX --prodSourceLabel test --workingGroup ${PANDA_AUTH_VO} --maxAttempt 1 --followLinks --cpuTimePerEvent=1200 --maxWalltime 24 --memory 2048`
-
 [Task 11014](https://panda-doma.cern.ch/task/11014/)
+
+```
+prun --exec "run_hfprod.sh mdc2.7 1 Charm TestSimulation ./ 
+             1234567890 %RNDM:00001" 
+	 --outDS user.jwebb2.`uuidgen` --noBuild --vo wlcg 
+	 --site BNL_OSG_SPHENIX --prodSourceLabel test 
+	 --workingGroup ${PANDA_AUTH_VO} --maxAttempt 1 
+	 --followLinks --cpuTimePerEvent=1200 --maxWalltime 24 
+	 --memory 2048
+```
+
+
 
 ---
 
-> $ tail -n 28 /sphenix/user/sphnxpro/out.txt | grep *.root
->  .rootrc
-> G4Test_Charm-1234567890-00002.root
+```
+$ tail -n 28 /sphenix/user/sphnxpro/out.txt | grep *.root
+ .rootrc
+G4Test_Charm-1234567890-00002.root
+```
 
 ---
 
@@ -53,13 +65,14 @@ pchain -cwl shrek/shrek.cwl -yaml sP22aa-mdc2.7/job/hfprod-pass1.yaml \
 sPHENIX Handy Remote Execution Koordinator (*working title*)
 ![[Pasted image 20220323093933.png|400]]
 
+---
 
 ### Current status
 
-1. pass1 runs and can be scaled to more nevents and jobs
-2. root files *can* be copied back to /sphenix/users/sphnxpro directly...
-	-	would prefer to stage back via rucio ...
-3. next step is to get pass2 up and running
+1. pass1 runs with direct submission with prun
+	- root files *can* be copied back to /sphenix/users/sphnxpro directly...
+	- would prefer to stage back via rucio ...
+2. working to generalize so that the job description is expressed as a single yaml file input to pchain... (more discussion on Wednesday)
 
 
 

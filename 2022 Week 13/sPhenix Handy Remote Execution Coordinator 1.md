@@ -13,39 +13,9 @@
 ---
 
 Tagging convention
-- Associate all production inputs and outputs with a concise label
+- Associate all production inputs and outputs with a unique, concise label
 ![[Pasted image 20220323125215.png]]
-
----
-
-CWL --> [Common Workflow Language](https://www.commonwl.org/)
-
-- Build complex parallel workflows from simple command line tools... 
-- Use with PanDA may come with limitations...
-
----
-
-### Try to come up with a good name...
-Coordinate the Remote Execution of sPHENIX Data Productions...
-
----
-
-sPHENIX Handy Remote Execution Koordinator (*working title*)
-![[Pasted image 20220323093933.png|400]]
-
-
-
----
-
-
----
-
-Important to note:
-- CWL is used by *panda* to run *prun tasks* on the remote PanDA server
-
-- all production codes must be wrapped by a script which 
-	- sets up the environment
-	- manages job parameters (such as run number, sequence/RNG number, etc...), some of which are generated per job by PanDA
+- Suitable for archiving on (e.g.) github
 
 ---
 
@@ -56,11 +26,7 @@ Important to note:
 
 ![[Pasted image 20220316140833.png|400]]
 
----
-
-> run_hfprod.sh *build* *nevents* *type* *job name* *output directory* *run number* *sequence number*
-
-Inside of run_hfprod.sh stdout is redirected to /sphenix/user/sphnxpro/out.txt
+... reconstruction passes to be implemented next
 
 ---
 
@@ -76,7 +42,19 @@ Inside of run_hfprod.sh stdout is redirected to /sphenix/user/sphnxpro/out.txt
 
 ---
 
-## Current status
+```
+pchain -cwl shrek/shrek.cwl -yaml sP22aa-mdc2.7/job/hfprod-pass1.yaml \
+       --outDS user.jwebb2.sP22aa-mdc2.7 \
+	   ...
+```
+
+---
+
+sPHENIX Handy Remote Execution Koordinator (*working title*)
+![[Pasted image 20220323093933.png|400]]
+
+
+### Current status
 
 1. pass1 runs and can be scaled to more nevents and jobs
 2. root files *can* be copied back to /sphenix/users/sphnxpro directly...

@@ -50,7 +50,8 @@ G4Test_Charm-1234567890-00002.root
 
 ---
 
-![[Pasted image 20220401095632.png|400]]
+Idea is to replace all of the individual passes with a common CWL description, with job-specific configurations in the *yaml* inputs file.
+![[Pasted image 20220401095632.png|350]]
 
 ```
 pchain -cwl shrek/shrek.cwl -yaml sP22aa-mdc2.7/job/hfprod-pass1.yaml \

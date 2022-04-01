@@ -43,7 +43,6 @@ prun --exec "run_hfprod.sh mdc2.7 1 Charm TestSimulation ./
 ```
 
 
-
 ---
 
 ```
@@ -54,15 +53,23 @@ G4Test_Charm-1234567890-00002.root
 
 ---
 
+ ![SHREK](https://lh4.googleusercontent.com/G5w4P1uwUYpU-ObA8T3fDdm27jEm66IxTQ-sHTB8_LGZQbZpQK4xGBMeMpDTHxCBIPt9_vnBkuWdjTYcaTGBhjLEMC4giqNX_YLv9d5RR6G4mJgOiw9O9e1q4l-GcA1dZMVp1Nl-) 
+
+---
+
 ```
 pchain -cwl shrek/shrek.cwl -yaml sP22aa-mdc2.7/job/hfprod-pass1.yaml \
        --outDS user.jwebb2.sP22aa-mdc2.7 \
 	   ...
 ```
 
+- Generic CWL "working" standalone under cwl-runner (no pchain submission)
+- Testing submission to PanDA today... 
+	- suspecting undocumented limitations running CWL on PanDA server...
+
 ---
 
-sPHENIX Handy Remote Execution Koordinator (*working title*)
+sPHENIX Handy Remote Execution Koordinator 
 ![[Pasted image 20220323093933.png|400]]
 
 ---

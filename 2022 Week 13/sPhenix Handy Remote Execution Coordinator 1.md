@@ -12,13 +12,6 @@
 	 
 ---
 
-Tagging convention
-- Associate all production inputs and outputs with a unique, concise label
-![[Pasted image 20220323125215.png]]
-- Suitable for archiving on (e.g.) github
-
----
-
 ### First attempt: MDC Pythia HF Workflow
 
 - pass1 - generate HF pythia events
@@ -81,6 +74,12 @@ sPHENIX Handy Remote Execution Koordinator
 	- would prefer to stage back via rucio ...
 2. working to generalize so that the job description is expressed as a single yaml file input to pchain... (more discussion on Wednesday)
 
+---
 
+Tagging convention
+- Associate all production inputs and outputs with a unique, concise label
+![[Pasted image 20220323125215.png]]
+- Suitable for archiving on (e.g.) github
 
+---
 

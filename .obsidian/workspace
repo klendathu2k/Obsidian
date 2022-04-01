@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022 Week 13/sPhenix Handy Remote Execution Coordinator 1.md",
-            "mode": "source",
+            "file": "Templates/Friday.md",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022 Week 13/sPhenix Handy Remote Execution Coordinator 1.md",
+                "file": "Templates/Friday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022 Week 13/sPhenix Handy Remote Execution Coordinator 1.md"
+                "file": "Templates/Friday.md"
               }
             }
           }
@@ -111,13 +111,13 @@
   },
   "active": "ab53d33dd140a095",
   "lastOpenFiles": [
+    "Templates/Friday.md",
     "2022 Week 13/sPhenix Handy Remote Execution Coordinator 1.md",
     "SHREK.md",
     "2022 Week 12/sPhenix Handy Remote Execution Coordinator.md",
     "2022 Week 13/2022-04-01.md",
     "2022 Week 13/2022-03-31.md",
     "000 Sticky Notes/Upcoming.md",
-    "Templates/Friday.md",
     "2022 Week 13/2022-03-30.md",
     "Common Workflow Language/CWL Notes.md",
     "2022 Week 13/STAR S&C 03-30-2022.md"

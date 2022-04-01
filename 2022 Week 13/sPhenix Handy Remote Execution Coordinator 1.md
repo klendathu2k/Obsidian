@@ -6,28 +6,37 @@
 
 ### Design Goals
 - Reproducibility
-- Support documentation generation
-- Provide *single source description* of the job workflow
-- ... shoul
+- Documentation / Bookkeeping
+
+--> Provide *single source description* of the job workflow
 	 
 ---
 
-![[Pasted image 20220323093933.png|400]]
-
----
-
-Tagging convention thoughts...
+Tagging convention
+- Associate all production inputs and outputs with a concise label
 ![[Pasted image 20220323125215.png]]
 
 ---
 
 CWL --> [Common Workflow Language](https://www.commonwl.org/)
 
+- Build complex parallel workflows from simple command line tools... 
+- Use with PanDA may come with limitations...
+
 ---
 
-Documentation is the language specification / Tutorials are far too trivial
+### Try to come up with a good name...
+Coordinate the Remote Execution of sPHENIX Data Productions...
 
-![|400](https://lh3.googleusercontent.com/ZRFfya9MXZBd8nmAErP_oei8r1uFAGE7Yxkl1dFqvNbqw3GP74_BAyxc4WXeAnbMmDuSiR28UE68p__IGIgirtB4wRdWBPOAN1-nz_UHoGuzY9pmwnRUQkOnLmk_EYXcvSX42vt7)
+---
+
+sPHENIX Handy Remote Execution Koordinator (*working title*)
+![[Pasted image 20220323093933.png|400]]
+
+
+
+---
+
 
 ---
 
@@ -73,24 +82,6 @@ Inside of run_hfprod.sh stdout is redirected to /sphenix/user/sphnxpro/out.txt
 2. root files *can* be copied back to /sphenix/users/sphnxpro directly...
 	-	would prefer to stage back via rucio ...
 3. next step is to get pass2 up and running
-
----
-
-Other possible names...
-
----
-
-Networkable Execution Modeling Objects (NEMO) *... stretching things a bit...*
-![[Pasted image 20220323095228.png|400]]
-
----
-
-Framework for Remote Execution Development (FRED) *alternate title...*
-![[Pasted image 20220323094628.png]]
-
----
-
-
 
 
 

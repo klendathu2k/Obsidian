@@ -18,6 +18,7 @@ Unit tests for CWL
 
 MIscellaneous
 - [Best Practices](http://www.commonwl.org/user_guide/rec-practices/)
+- [Short List of Workflow Management Systems](https://github.com/common-workflow-language/common-workflow-language/wiki/Existing-Workflow-systems)
 
 
 Mark an input as optional w/ ? after the type.  If it is not provided, then $(inputs.value) will be null.

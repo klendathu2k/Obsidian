@@ -33,12 +33,16 @@ PBCK = Problems Between Chair and Keyboard
 ![[Pasted image 20220406105537.png|600]]
 
 ---
+SHREK will provide user- and system-generated environment variables needed to map the user workflow onto the PanDA submission
+
+---
 
 ```
 $ cat run_hfcharm_pass1.yaml
 
 # Specifies a unique name for the job                                  
-jobname: g4charm                                                                                                     
+jobname: g4charm_pass1      
+
 # Extra panda flags (such as number of jobs to run)              
 extra_panda_args: --nJobs 5                        
 
@@ -54,7 +58,7 @@ jobdir: /sphenix/u/jwebb2/work/2022/SHREK/MDC2
 
 runnumber: 1234567890 
 
-# Commands to stage files required to run the code 
+# Commands to stage files required to run the code (semi-naughty)
 stagecmd: |-                                                          
   ln -s /sphenix/u/jwebb2/work/2022/SHREK/MDC2/submit/HF_pp200_signal/pass1/rundir/* .                                                   
                                         
@@ -64,20 +68,23 @@ commands: |-
    export infiles=$1
    run_hfprod_pass1.sh $SHREK_build \
                        $SHREK_nevents \
-					   $SHREK_type \
-					   $SHREK_outfile \
-					   $SHREK_outdir \
-					   $SHREK_
+                       $SHREK_type \
+                       $SHREK_outfile \
+                       $SHREK_outdir \
+                       $SHREK_runnumber \
+                       $SHREK_jobindex
   
-# Copy back block                                                       
+# Copy back block (for naughty copies...)
 copyback: |-           
 
-  export manifest = ${SHREK_tag}-${SHREK_runnumber}-${SHREK_jobindex}.manifest
+  export manifest = ${SHREK_jobname|-${SHREK_tag}-${SHREK_runnumber}-${SHREK_jobindex}.manifest
 
-  echo "JOB ${SHREK_jobindex} of ${SHREK_nJobs}"  >> ${manifest
-  }
+  echo "JOB ${SHREK_jobindex} of ${SHREK_nJobs}">>${manifest}
 
   ls *.root >> ${manifest}
   cp ${manifest} ${SHREK_outdir}
 
 ```
+
+
+

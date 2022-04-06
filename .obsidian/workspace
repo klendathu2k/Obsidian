@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022 Week 14/SHREK Preliminary Design.md",
-            "mode": "source",
+            "file": "Templates/Wednesday.md",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022 Week 14/SHREK Preliminary Design.md",
+                "file": "Templates/Wednesday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022 Week 14/SHREK Preliminary Design.md"
+                "file": "Templates/Wednesday.md"
               }
             }
           }
@@ -99,6 +99,7 @@
   },
   "active": "ab53d33dd140a095",
   "lastOpenFiles": [
+    "Templates/Wednesday.md",
     "2022 Week 14/SHREK Preliminary Design.md",
     "2022 Week 13/Highlights Week 13.md",
     "Images/Pasted image 20220406105035.png",
@@ -107,7 +108,6 @@
     "Images/Pasted image 20220323125215.png",
     "Pasted image 20220328111605.png",
     "Pasted image 20220323095228.png",
-    "Pasted image 20220323094628.png",
-    "Pasted image 20220323093933.png"
+    "Pasted image 20220323094628.png"
   ]
 }

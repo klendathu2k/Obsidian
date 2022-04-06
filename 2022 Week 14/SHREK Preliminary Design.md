@@ -44,6 +44,9 @@ $ cat run_hfcharm_pass1.yaml
 # Specifies a unique name for the job                                  
 jobname: g4charm_pass1      
 
+# Input data sets
+input_ds: null
+
 # Extra panda flags (such as number of jobs to run)              
 extra_panda_args: --nJobs 5                        
 
@@ -113,3 +116,25 @@ SHREK will eventually get along with anyone...
 ```
 prun --exec "cwl-runner shrek.cwl passN.yaml" ...
 ```
+
+(worker nodes will execute job under the control of cwl-runner... panda/pchain will steer the global workflow)
+
+---
+
+
+- I need to stage files using rucio...
+	```
+	cwl-runner donkey.cwl passN.yaml
+	```
+- I need to produce the documentation for this pass...
+	```
+	cwl-runner fiona.cwl passN.yaml
+	```
+- I need to get the current status of the production pass...
+    ```
+	cwl-runner boots.cwl passN.yaml
+	```
+...
+
+
+---

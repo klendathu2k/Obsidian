@@ -33,6 +33,7 @@ PBCK = Problems Between Chair and Keyboard
 ![[Pasted image 20220406105537.png|600]]
 
 ---
+
 SHREK will provide user- and system-generated environment variables needed to map the user workflow onto the PanDA submission
 
 ---
@@ -86,5 +87,29 @@ copyback: |-
 
 ```
 
+---
+
+![[Pasted image 20220406113612.png|500]]
+
+SHREK maps the user- and system-defined parameters onto environment variables with which users can steer their code
 
 
+---
+
+![[Pasted image 20220406113612.png|500]]
+
+SHREK does not play well with PanDA...
+```
+pchain --cwl shrek.cwl --yaml passN.yaml
+```
+... does not work b/c SHREK uses CWL features that PanDA cannot support...
+
+
+---
+
+![[Pasted image 20220406113612.png|500]]
+
+SHREK will eventually get along with anyone...
+```
+prun --exec "cwl-runner shrek.cwl passN.yaml" ...
+```

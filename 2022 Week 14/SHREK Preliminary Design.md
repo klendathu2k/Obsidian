@@ -46,22 +46,38 @@ extra_panda_args: --nJobs 5
 build: mdc2.7                                                           
 
 # Job parameters
-nevents: 100    # to generate                                            type: Charm     # type of job                                            outfile: TestSubmission                                                 outdir: /sphenix/user/sphnxpro/shrek/pass1/out                         logdir: /sphenix/user/sphnxpro/shrek/pass1/log                         jobdir: /sphenix/u/jwebb2/work/2022/SHREK/MDC2                                       
-runnumber: 1234567890                                                   
+nevents: 100    # to generate                                            type: Charm     # type of job     
+outfile: TestSubmission   
+outdir: /sphenix/user/sphnxpro/shrek/pass1/out  
+logdir: /sphenix/user/sphnxpro/shrek/pass1/log  
+jobdir: /sphenix/u/jwebb2/work/2022/SHREK/MDC2 
+
+runnumber: 1234567890 
 
 # Commands to stage files required to run the code 
 stagecmd: |-                                                          
   ln -s /sphenix/u/jwebb2/work/2022/SHREK/MDC2/submit/HF_pp200_signal/pass1/rundir/* .                                                   
                                         
 # Command block                                                        
-commands: |-                                                           
-  echo execute a predefined script                                     
-  run_hfprod_pass1.sh                                                  
-  echo or any arbitrary set of unix commands...                        
-  # e.g. root.exe -q -b Fun4All.C                                 
+commands: |-            
+  
+   export infiles=$1
+   run_hfprod_pass1.sh $SHREK_build \
+                       $SHREK_nevents \
+					   $SHREK_type \
+					   $SHREK_outfile \
+					   $SHREK_outdir \
+					   $SHREK_
   
 # Copy back block                                                       
-copyback: |-                                                                                                                             
-  ls > ${g4charm_RUNNUM}_${g4charm_SEQNUM}.manifest     
+copyback: |-           
+
+  export manifest = ${SHREK_tag}-${SHREK_runnumber}-${SHREK_jobindex}.manifest
+
+  echo "JOB ${SHREK_jobindex} of ${SHREK_nJobs}"  >> ${manifest
+  }
+
+  ls *.root >> ${manifest}
+  cp ${manifest} ${SHREK_outdir}
 
 ```

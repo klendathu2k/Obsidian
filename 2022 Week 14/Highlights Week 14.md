@@ -17,4 +17,11 @@ Highlights Week 14
 		- One huge advantage is that I can interact with the github repository via a github api...
 		- Only downside is I have to write more code in python (compared to CWL) to achieve the same result
 		- Huge advantage... python is readable.
-		- 
+- STAR Embedding Framework Bug 
+	- User reported embedding job(s) crashing randomly... failing an assert in StArray.   (turned out to be reproducible and non random)
+	- Jobs were crashing b/c the FZD file was containing completely emtpy events, which result in no StMcEvent/StEmcCollection created during the BFC run.
+	- Resulted in code falling trhough to a corner case / deferencing a stale pointer to StEmcCollection / triggering 
+	- starsim memory was being exhausted which basically shuts down simulation (but still stores empty events?)
+	- Appears that the SL16d_embed library has been recompiled with new compiler, triggering the G3 physics bug we fixed 2 years ago?  
+	- Informed Gene and XIanglei that codes need update / need to check if any embedding productions have been run w/ this buggy code
+	- Identified other libraries that need to be retagged / patched.

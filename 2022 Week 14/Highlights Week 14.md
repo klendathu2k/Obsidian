@@ -11,5 +11,10 @@ Highlights Week 14
 	- CWL is still the prefferred language in which to express the full job definition / submission.  Idea is to run a CWL document that manages the staging, submission, documentation of the job.  
 	- There are some awkward CWL behaviors, however.  These include that CWL runs in an empty environment by default, and runs in a separate directory from the submission point *by design*... (I don't see how to force it to run in the cwd...)
 	- Strongly considering implementing shrek as a python command line application instead.
-		- github api to interact with the repository
+		- YAML parser to read in the YAML document / transform to user scripts...
+		- One huge advantage here is that environment variables can be declared in the YAML files w/out having to make corresponding entries into the CWL files (which I want to touch as little as possible)
+		- One huge advantage is that I can avoid the use of javascript expressions in the CWL file to generate environment variables in the user scripts.
+		- One huge advantage is that I can interact with the github repository via a github api...
+		- Only downside is I have to write more code in python (compared to CWL) to achieve the same result
+		- Huge advantage... python is readable.
 		- 

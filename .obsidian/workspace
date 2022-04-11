@@ -9,13 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< HEAD
-            "file": "2022 Week 15/2022-04-11.md",
-            "mode": "source",
-=======
-            "file": "2022 Week 14/Highlights Week 14.md",
+            "file": "SHREK.md",
             "mode": "preview",
->>>>>>> 44577df62de2c959d1e3140e2fdd314c9f5fe2e9
             "backlinks": true
           }
         }
@@ -58,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298
+    "width": 365
   },
   "right": {
     "id": "95e9a6685d3f4a91",
@@ -74,11 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "2022 Week 15/2022-04-11.md",
-=======
-                "file": "2022 Week 14/Highlights Week 14.md",
->>>>>>> 44577df62de2c959d1e3140e2fdd314c9f5fe2e9
+                "file": "SHREK.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,11 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "2022 Week 15/2022-04-11.md"
-=======
-                "file": "2022 Week 14/Highlights Week 14.md"
->>>>>>> 44577df62de2c959d1e3140e2fdd314c9f5fe2e9
+                "file": "SHREK.md"
               }
             }
           }
@@ -112,27 +99,15 @@
   },
   "active": "ab53d33dd140a095",
   "lastOpenFiles": [
-<<<<<<< HEAD
+    "SHREK.md",
+    "Useful Obsidian Note Links.md",
     "2022 Week 15/2022-04-11.md",
-=======
-    "2022 Week 14/Highlights Week 14.md",
-    "2022 Week 14/2022-04-04.md",
-    "2022 Week 14/2022-04-08.md",
->>>>>>> 44577df62de2c959d1e3140e2fdd314c9f5fe2e9
     "2022 Week 14/2022-04-07.md",
+    "Untitled 1.md",
+    "Untitled.md",
     "2022 Week 14/2022-04-06.md",
-<<<<<<< HEAD
     "Templates/Thursday.md",
     "Templates/Wednesday.md",
-    "2022 Week 14/SHREK Preliminary Design.md",
-    "2022 Week 14/Pasted image 20220406113612.png",
-    "2022 Week 13/Highlights Week 13.md"
-=======
-    "2022 Week 14/2022-04-05.md",
-    "2022 Week 13/2022-04-01.md",
-    "2022 Week 13/Highlights Week 13.md",
-    "2022 Week 13/Pasted image 20220401161923.png",
-    "2022 Week 13/2022-03-30.md"
->>>>>>> 44577df62de2c959d1e3140e2fdd314c9f5fe2e9
+    "2022 Week 14/SHREK Preliminary Design.md"
   ]
 }

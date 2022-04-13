@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022 Week 15/2022-04-12.md",
-            "mode": "preview",
+            "file": "2022 Week 15/2022-04-13.md",
+            "mode": "source",
             "backlinks": true
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022 Week 15/2022-04-12.md",
+                "file": "2022 Week 15/2022-04-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022 Week 15/2022-04-12.md"
+                "file": "2022 Week 15/2022-04-13.md"
               }
             }
           }
@@ -99,15 +99,15 @@
   },
   "active": "ab53d33dd140a095",
   "lastOpenFiles": [
-    "2022 Week 15/2022-04-12.md",
+    "2022 Week 15/2022-04-13.md",
     "SHREK.md",
+    "2022 Week 15/2022-04-12.md",
     "Useful Obsidian Note Links.md",
     "2022 Week 15/2022-04-11.md",
     "2022 Week 14/2022-04-07.md",
     "Untitled 1.md",
     "Untitled.md",
     "2022 Week 14/2022-04-06.md",
-    "Templates/Thursday.md",
-    "Templates/Wednesday.md"
+    "Templates/Thursday.md"
   ]
 }

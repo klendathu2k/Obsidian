@@ -224,5 +224,70 @@ Goal for this work period is to demonstrate *pchain* based simulation production
 	- --> pass 1 file plus pre-generated background files
 	
 
+-------------------------------------------------------------
 	
+## Updated Design
+- Use directory structure on filesystem, combined with yaml input files inside each directory, to generate the workflow description (CWL) utilized by PanDA.
+	
+- Python YAML reads the yaml files into a dictionary... extremely flexible for defining data structures
+	
+- We need to enforce a schema...  
+
+## SHREK yaml schema
+
+### User defined variables and arrays...
+
+Variables can be defined for consumption by the user code(s) which will be run on the remote worker nodes.  SHREK will build a job script utilizing the *bash* scripting language.  Anything declared as a "name: value" pair (or values) will be exported as environment variables w/in the script.  There is no output made to the workflow.
+
+| yaml | job script | workflow |
+| -----| -------------| --------|
+| name: value | export name=value | ---- |
+| name: (values) | export name=(values) | ---- |
+
+### User defined mappings?
+It may be possible to support user-defined [associative arrays](https://stackoverflow.com/questions/688849/associative-arrays-in-shell-scripts)
+
+### Output data sets
+OutputDataSets:
+- name:
+     comment: a user comment field (required)
+	 merge: true/false (optional, defaults to false)
+	 - file:
+	      name: name of an output file
+		  suffix: optional suffix for the dataset container
+	      required: true/false (optional, defaults to true)
+
+Defines an ooutput dataset.  Comment is required.  If present and true, the merge option will result in the user's mergeCommands block being executed.
+
+Output files are listed.  The name is specified.  An optional suffix may be provided, which is appended to the name of the dataset.  The "required" field indicates whether the presence of this file is needed for PanDA to consider the job successfully completed.  Perversely, the required field is optional.  If it is provided *and failse*, the file may be absent at the end of the job and the job will still be successful.
+
+
+### Input data sets
+inputDataSets:
+- name: 
+     comment: a user comment field (required)
+	 altname: a user defined variable name (optional)
+     nFilesPerJob: number of files per job (optional, defaults to 1)
+     match: pattern matching applied to filenams (optional)
+     nSkip: number of files to skip (optional)
+	 nFiles: limited number of files (optional, may only be specified on first dataset)
+	 filelist: (optional)
+	   - path::/path/to/files/on/system/*
+	 
+  Input data sets are declared as a list of named data sets.  Minimally a comment is required (describing the DS being used).  Optionally the number of files per job can be set, as well as the criteria for matching files and the number of files to skip in the dataset.
+  
+  Files passed to the user script will be listed in an array carrying the name of the dataset.  In the event that the name is too long, contains special characters, etc...  an alternate name can be specified... 
+  
+  filelist: an optional parameter specifying a list of files (either specifically listing all files, or selecting a set of files by wildxard).  More than one 
+  
+  The first dataset is taken as the primary dataset.  Subsequent data sets are secondary data sets.  Internally they will be enumerated as %IN1, ...%INn-1.
+  
+### Command Block
+
+User defined block of shell commands, to be executed once all user- and system-defined environment variables have been created.  
+
+commandBlock: |-
+    \# User script specified script to execute the job
+	\# which can reference user-defined and system-defined
+	\# environment variables
 	

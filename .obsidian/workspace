@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "2022 Week 15/2022-04-13.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298
+    "width": 365
   },
   "right": {
     "id": "95e9a6685d3f4a91",
@@ -99,26 +99,15 @@
   },
   "active": "ab53d33dd140a095",
   "lastOpenFiles": [
-<<<<<<< HEAD
     "2022 Week 15/2022-04-13.md",
     "SHREK.md",
     "2022 Week 15/2022-04-12.md",
     "Useful Obsidian Note Links.md",
-=======
-    "2022 Week 15/2022-04-12.md",
->>>>>>> e88f3d3af6ad9ef1280816c9c63c2f51f0a5e130
     "2022 Week 15/2022-04-11.md",
-    "000 Sticky Notes/Upcoming.md",
-    "2022 Week 14/Highlights Week 14.md",
-    "2022 Week 14/2022-04-04.md",
-    "2022 Week 14/2022-04-08.md",
     "2022 Week 14/2022-04-07.md",
+    "Untitled 1.md",
+    "Untitled.md",
     "2022 Week 14/2022-04-06.md",
-<<<<<<< HEAD
     "Templates/Thursday.md"
-=======
-    "2022 Week 14/2022-04-05.md",
-    "2022 Week 13/2022-04-01.md"
->>>>>>> e88f3d3af6ad9ef1280816c9c63c2f51f0a5e130
   ]
 }

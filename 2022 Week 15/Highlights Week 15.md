@@ -17,7 +17,7 @@ The workflow *can*  be created dynamically as well from the yaml inputs.  Should
 Established a schema for the job defintion files:
 https://github.com/klendathu2k/shrek/tree/schema/schema
 
-Implemented tests which validate the schema.
+Implemented tests which validate the schema, and setup a simplified set of job definition files for the sPHENIX simulation.  (pass 1 generation, pass 2 pileup addition).  Next step will be to build the job execution scripts (aka bash shell scripts) that steer how Fun4All is run.  And beyond that, either dynamically create workflow files for PanDA submission, or implement workflow templates that can be filled in.... which is probably equivalent, but certainly conceptually easier.
 
 
 

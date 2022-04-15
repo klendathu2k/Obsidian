@@ -10,8 +10,7 @@
 
 ### 04/15 Status
 
-- Design decision
-	- Generation of user's job execution scripts from job definition files (*yaml*)  pre-submission to   
+- Generation of user's job execution scripts from job definition files (*yaml*)  pre-submission to PanDA.  
 - Unifies *all* information required to run a production into a single input file (*per each step in a workflow*)
 - Allows user's input files to be validated against schema definitions
 - 

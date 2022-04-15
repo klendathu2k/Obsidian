@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022 Week 15/SHREK Status 04-15-22.md",
-            "mode": "source",
+            "file": "2022 Week 15/2022-04-15.md",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022 Week 15/SHREK Status 04-15-22.md",
+                "file": "2022 Week 15/2022-04-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022 Week 15/SHREK Status 04-15-22.md"
+                "file": "2022 Week 15/2022-04-15.md"
               }
             }
           }
@@ -99,6 +99,7 @@
   },
   "active": "ab53d33dd140a095",
   "lastOpenFiles": [
+    "2022 Week 15/2022-04-15.md",
     "2022 Week 15/SHREK Status 04-15-22.md",
     "2022 Week 14/2022-04-05.md",
     "2022 Week 14/2022-04-06.md",
@@ -106,7 +107,6 @@
     "2022 Week 14/2022-04-08.md",
     "2022 Week 14/Highlights Week 14.md",
     "2022 Week 13/sPhenix Handy Remote Execution Coordinator 1.md",
-    "2022 Week 15/2022-04-15.md",
     "2022 Week 15/2022-04-13.md",
     "SHREK.md"
   ]

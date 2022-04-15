@@ -10,5 +10,15 @@
 
 ### 04/15 Status
 
-- Demonstrated generation of job execution scripts from single input file (yaml) used in PanDA submission.
-- Places the full job definiton (input, output data sets, user macros, run time parameters, etc...) in a single document for each component of a workflow.
+- Design decision
+	- Generation of user's job execution scripts from job definition files (*yaml*)  pre-submission to   
+- Unifies *all* information required to run a production into a single input file (*per each step in a workflow*)
+- Allows user's input files to be validated against schema definitions
+- 
+
+---
+
+### 04/15 Status
+- Initial schema definitions in place
+- Working on building workflows from 
+

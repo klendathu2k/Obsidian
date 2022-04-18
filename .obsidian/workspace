@@ -25,7 +25,7 @@
           "type": "markdown",
           "state": {
             "file": "Tasks.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": true
           },
           "pinned": true
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-Week-16/2022-04-18.md",
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-Week-16/2022-04-18.md"
+                "file": "Tasks.md"
               }
             }
           }
@@ -113,11 +113,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ab53d33dd140a095",
+  "active": "c736de81ade01f52",
   "lastOpenFiles": [
+    "Tasks.md",
     "2022-Week-16/2022-04-18.md",
     "Fun with Bash.md",
-    "Tasks.md",
     "2022 Week 15/2022-04-15.md",
     "2022 Week 15/Highlights Week 15.md",
     "2022 Week 15/2022-04-13.md",

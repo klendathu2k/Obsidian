@@ -6,7 +6,7 @@
       {
         "id": "ab53d33dd140a095",
         "type": "leaf",
-        "dimension": 80.27255029201818,
+        "dimension": 72.35561323815705,
         "state": {
           "type": "markdown",
           "state": {
@@ -19,13 +19,13 @@
       {
         "id": "c736de81ade01f52",
         "type": "leaf",
-        "dimension": 19.72744970798183,
+        "dimension": 27.64438676184296,
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Tasks.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": true
           },
           "pinned": true
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247
+    "width": 247,
+    "collapsed": true
   },
   "right": {
     "id": "95e9a6685d3f4a91",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks.md",
+                "file": "2022-Week-16/2022-04-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks.md"
+                "file": "2022-Week-16/2022-04-18.md"
               }
             }
           }
@@ -113,10 +114,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c736de81ade01f52",
+  "active": "ab53d33dd140a095",
   "lastOpenFiles": [
-    "Tasks.md",
     "2022-Week-16/2022-04-18.md",
+    "Tasks.md",
     "Fun with Bash.md",
     "2022 Week 15/2022-04-15.md",
     "2022 Week 15/Highlights Week 15.md",

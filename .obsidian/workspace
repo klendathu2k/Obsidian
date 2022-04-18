@@ -4,9 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "ab53d33dd140a095",
+        "id": "ad24aa5f9ee4dc81",
         "type": "leaf",
-        "dimension": 72.35561323815705,
         "state": {
           "type": "markdown",
           "state": {
@@ -14,21 +13,6 @@
             "mode": "source",
             "backlinks": true
           }
-        }
-      },
-      {
-        "id": "c736de81ade01f52",
-        "type": "leaf",
-        "dimension": 27.64438676184296,
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Tasks.md",
-            "mode": "preview",
-            "backlinks": true
-          },
-          "pinned": true
         }
       }
     ],
@@ -69,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247,
-    "collapsed": true
+    "width": 298
   },
   "right": {
     "id": "95e9a6685d3f4a91",
@@ -114,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ab53d33dd140a095",
+  "active": "ad24aa5f9ee4dc81",
   "lastOpenFiles": [
     "2022-Week-16/2022-04-18.md",
+    "Templates/Friday.md",
     "Tasks.md",
-    "Fun with Bash.md",
     "2022 Week 15/2022-04-15.md",
-    "2022 Week 15/Highlights Week 15.md",
+    "2022 Week 15/2022-04-14.md",
     "2022 Week 15/2022-04-13.md",
     "2022 Week 15/2022-04-12.md",
     "2022 Week 15/2022-04-11.md",
-    "2022 Week 14/Highlights Week 14.md",
-    "2022 Week 15/2022-04-14.md"
+    "000 Sticky Notes/Upcoming.md",
+    "2022 Week 14/Highlights Week 14.md"
   ]
 }

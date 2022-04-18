@@ -7,4 +7,3 @@
 
 ### End of Day
 - [x] FInal email check ⏫ ✅ 2022-04-18
-- [ ] Google DN link ⏫

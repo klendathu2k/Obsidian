@@ -1,5 +1,5 @@
 ### Urgent Tasks
-- [x] pp2015 Full Production [follow up on email] ⏫ ✅ 2022-04-19
+- [ ] pp2015 Full Production [follow up on email] ⏫
 - [ ] Respond to Xin RE: G4 pulls
 ### Important Tasks
 - [ ] Read Email ⏫ 🔁 every 2 hours

@@ -8,3 +8,4 @@
 
 ### End of Day
 - [ ] FInal email check ⏫
+- [ ] FInal push to github

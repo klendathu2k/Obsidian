@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-Week-16/2022-04-19.md",
+            "file": "2022-Week-16/2022-04-20.md",
             "mode": "source",
             "backlinks": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks.md",
+                "file": "2022-Week-16/2022-04-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks.md"
+                "file": "2022-Week-16/2022-04-20.md"
               }
             }
           }
@@ -113,8 +113,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c736de81ade01f52",
+  "active": "ab53d33dd140a095",
   "lastOpenFiles": [
+    "2022-Week-16/2022-04-20.md",
     "Tasks.md",
     "2022-Week-16/2022-04-19.md",
     "2022-Week-16/Pasted image 20220419135132.png",
@@ -123,7 +124,6 @@
     "2022 Week 15/Pasted image 20220415144003.png",
     "Pasted image 20220323095228.png",
     "Pasted image 20220323094628.png",
-    "Pasted image 20220323093933.png",
-    "Pasted image 20220318104636.png"
+    "Pasted image 20220323093933.png"
   ]
 }

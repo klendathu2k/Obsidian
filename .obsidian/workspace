@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-Week-16/2022-04-20.md",
+            "file": "Useful Github Links and Commands.md",
             "mode": "source",
             "backlinks": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-Week-16/2022-04-20.md",
+                "file": "Useful Github Links and Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-Week-16/2022-04-20.md"
+                "file": "Useful Github Links and Commands.md"
               }
             }
           }
@@ -115,6 +115,7 @@
   },
   "active": "ab53d33dd140a095",
   "lastOpenFiles": [
+    "Useful Github Links and Commands.md",
     "2022-Week-16/2022-04-20.md",
     "Tasks.md",
     "2022-Week-16/2022-04-19.md",
@@ -123,7 +124,6 @@
     "2022 Week 15/Highlights Week 15.md",
     "2022 Week 15/Pasted image 20220415144003.png",
     "Pasted image 20220323095228.png",
-    "Pasted image 20220323094628.png",
-    "Pasted image 20220323093933.png"
+    "Pasted image 20220323094628.png"
   ]
 }

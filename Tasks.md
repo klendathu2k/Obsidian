@@ -1,9 +1,9 @@
 #### Urgent Tasks
 #### Important Tasks
 - [ ] pp2015 Full Production [follow up on email] ⏫
-- [ ] Convert PR#311 to full PR
-	- [ ] Include instructions on how to build / how to run...
-	- [ ] Email Carlene RE: phone
+- [x] Convert PR#311 to full PR ✅ 2022-04-20
+	- [x] Include instructions on how to build / how to run... ✅ 2022-04-20
+- [x] Email Carlene RE: phone ✅ 2022-04-20
 #### Tasks
 - [ ] Test [[geant4star memory usage]]
 #### Low Priority

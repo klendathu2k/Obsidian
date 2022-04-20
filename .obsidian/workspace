@@ -11,7 +11,7 @@
           "type": "markdown",
           "state": {
             "file": "2022-Week-16/2022-04-20.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -25,7 +25,7 @@
           "type": "markdown",
           "state": {
             "file": "Tasks.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": true
           },
           "pinned": true
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks.md",
+                "file": "2022-Week-16/2022-04-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks.md"
+                "file": "2022-Week-16/2022-04-20.md"
               }
             }
           }
@@ -113,14 +113,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c736de81ade01f52",
+  "active": "ab53d33dd140a095",
   "lastOpenFiles": [
-    "Tasks.md",
     "2022-Week-16/2022-04-20.md",
+    "Tasks.md",
+    "geant4star/geant4star status 04-20-2022.md",
     "2022-Week-16/complicated.png",
     "2022-Week-16/2022-04-19.md",
     "geant4star memory usage.md",
-    "geant4star/geant4star status 04-20-2022.md",
     "Templates/Wednesday.md",
     "geant4star/geant4star status.md",
     "2022 Week 12/sPhenix Handy Remote Execution Coordinator.md",

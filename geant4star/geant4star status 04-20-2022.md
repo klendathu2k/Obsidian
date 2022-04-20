@@ -3,12 +3,14 @@
 ![[Pasted image 20220316081737.png]]
  
 ---
-## Integration
+#### Integration
 - Made two Pull Requests to move code which does not depend on g4star 
 	-  [Closed PR#305](https://github.com/star-bnl/star-sw/pull/305)
 	-  [Open PR#308](https://github.com/star-bnl/star-sw/pull/308)
 - Large PR draft to pull in geant4maker code and related changes
 	- Draft [PR#311](https://github.com/star-bnl/star-sw/pull/311)
+	- Changes outside of (StGeant4Maker, AgML and StarGenerator) are mostly cosmetic and/or ROOT6 tweaks
+	- 
 	- Early comments / review requested
 
 ---

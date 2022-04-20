@@ -1,4 +1,8 @@
 [Oh Shit Git!](https://ohshitgit.com/)
 
-Hoe t
+How to roll back changes...
+```
+git reflog
+git reset HEAD@{index}
+```
 

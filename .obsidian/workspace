@@ -4,31 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "ab53d33dd140a095",
+        "id": "ad24aa5f9ee4dc81",
         "type": "leaf",
-        "dimension": 73.13432835820896,
+        "dimension": 78.3644859813084,
         "state": {
           "type": "markdown",
           "state": {
             "file": "2022-Week-16/2022-04-20.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": true
           }
         }
       },
       {
-        "id": "c736de81ade01f52",
+        "id": "e81b084329d1a33d",
         "type": "leaf",
-        "dimension": 26.865671641791046,
-        "pinned": true,
+        "dimension": 21.63551401869159,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Tasks.md",
             "mode": "preview",
             "backlinks": true
-          },
-          "pinned": true
+          }
         }
       }
     ],
@@ -69,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247
+    "width": 298
   },
   "right": {
     "id": "95e9a6685d3f4a91",
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-Week-16/2022-04-20.md",
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-Week-16/2022-04-20.md"
+                "file": "Tasks.md"
               }
             }
           }
@@ -113,17 +111,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ab53d33dd140a095",
+  "active": "e81b084329d1a33d",
   "lastOpenFiles": [
-    "2022-Week-16/2022-04-20.md",
     "Tasks.md",
-    "geant4star/geant4star status 04-20-2022.md",
-    "2022-Week-16/complicated.png",
-    "2022-Week-16/2022-04-19.md",
-    "geant4star memory usage.md",
-    "Templates/Wednesday.md",
-    "geant4star/geant4star status.md",
-    "2022 Week 12/sPhenix Handy Remote Execution Coordinator.md",
-    "2022 Week 12/2022-03-21.md"
+    "2022-Week-16/2022-04-20.md",
+    "2022 Week 15/2022-04-15.md",
+    "2022 Week 15/2022-04-14.md",
+    "2022-Week-16/2022-04-18.md",
+    "Templates/Friday.md",
+    "2022 Week 15/2022-04-13.md",
+    "2022 Week 15/2022-04-12.md",
+    "2022 Week 15/2022-04-11.md",
+    "000 Sticky Notes/Upcoming.md"
   ]
 }

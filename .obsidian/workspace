@@ -24,7 +24,7 @@
           "type": "markdown",
           "state": {
             "file": "Tasks.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": true
           }
         }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-Week-16/2022-04-21.md",
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-Week-16/2022-04-21.md"
+                "file": "Tasks.md"
               }
             }
           }
@@ -111,10 +111,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ad24aa5f9ee4dc81",
+  "active": "e81b084329d1a33d",
   "lastOpenFiles": [
-    "2022-Week-16/2022-04-21.md",
     "Tasks.md",
+    "2022-Week-16/2022-04-21.md",
     "Templates/Thursday.md",
     "Templates/Wednesday.md",
     "2022-Week-16/2022-04-20.md",

@@ -10,6 +10,7 @@
 - [ ] SHREK: enforce schema at runtime
 - [ ] SHREK: add I/O nodes to the graph
 - [ ] SHREK: raise error if input not found
+- [ ] SHREK: add file/type to input DS
 #### End of Day
 - [ ] FInal email check ⏫
 - [ ] FInal push to github

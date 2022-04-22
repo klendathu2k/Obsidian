@@ -3,7 +3,9 @@
 #### Important Tasks
 - [ ] pp2015 Full Production [follow up on email] ⏫
 - [ ] star-simu-l subscription requests
-- [ ] geant4star: Gene's comments RE: BFC chain options
+- [ ] geant4star: 
+	- [ ] GVB: BFC chain options
+	- [ ] DS: Split it up
 #### Tasks
 - [ ] Test [[geant4star memory usage]]
 #### Low Priority

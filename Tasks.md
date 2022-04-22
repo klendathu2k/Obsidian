@@ -2,7 +2,7 @@
 - [ ] May timecard...
 #### Important Tasks
 - [ ] pp2015 Full Production [follow up on email] ⏫
-- [ ] star-simu-l subscription requests
+- [x] star-simu-l subscription requests ✅ 2022-04-22
 - [ ] geant4star: 
 	- [ ] GVB: BFC chain options
 	- [ ] DS: Split it up

@@ -25,7 +25,7 @@
           "type": "markdown",
           "state": {
             "file": "Tasks.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": true
           },
           "pinned": true
@@ -116,9 +116,9 @@
   "active": "ab53d33dd140a095",
   "lastOpenFiles": [
     "2022-Week-16/2022-04-22.md",
+    "Tasks.md",
     "2022-Week-16/2022-04-20.md",
     "2022-Week-16/2022-04-21.md",
-    "Tasks.md",
     "geant4star/geant4star status 04-20-2022.md",
     "2022-Week-16/complicated.png",
     "2022-Week-16/2022-04-19.md",

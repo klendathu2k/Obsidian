@@ -6,6 +6,7 @@
 - [ ] geant4star: 
 	- [ ] GVB: BFC chain options
 	- [ ] DS: Split it up
+ - [ ] [PR#338](https://github.com/star-bnl/star-sw/pull/338) 🔼
 #### Tasks
 - [ ] Test [[geant4star memory usage]]
 #### Low Priority

@@ -25,7 +25,7 @@
           "type": "markdown",
           "state": {
             "file": "Tasks.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": true
           },
           "pinned": true
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-Week-16/2022-04-22.md",
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-Week-16/2022-04-22.md"
+                "file": "Tasks.md"
               }
             }
           }
@@ -113,10 +113,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ab53d33dd140a095",
+  "active": "c736de81ade01f52",
   "lastOpenFiles": [
-    "2022-Week-16/2022-04-22.md",
     "Tasks.md",
+    "2022-Week-16/2022-04-22.md",
     "2022-Week-16/2022-04-20.md",
     "2022-Week-16/2022-04-21.md",
     "geant4star/geant4star status 04-20-2022.md",

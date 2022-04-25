@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-Week-16/Highlights.md",
-            "mode": "source",
+            "file": "2022-Week-16/2022-04-18.md",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-Week-16/Highlights.md",
+                "file": "2022-Week-16/2022-04-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-Week-16/Highlights.md"
+                "file": "2022-Week-16/2022-04-18.md"
               }
             }
           }
@@ -115,6 +115,7 @@
   },
   "active": "ab53d33dd140a095",
   "lastOpenFiles": [
+    "2022-Week-16/2022-04-18.md",
     "2022-Week-16/Highlights.md",
     "2022-Week-16/2022-04-22.md",
     "Tasks.md",
@@ -123,7 +124,6 @@
     "geant4star/geant4star status 04-20-2022.md",
     "2022-Week-16/complicated.png",
     "2022-Week-16/2022-04-19.md",
-    "geant4star memory usage.md",
-    "Templates/Wednesday.md"
+    "geant4star memory usage.md"
   ]
 }

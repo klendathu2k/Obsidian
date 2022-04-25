@@ -1,5 +1,5 @@
 #### Urgent Tasks
-- [ ] May timecard...
+- [x] May timecard... ✅ 2022-04-25
 #### Important Tasks
 - [ ] pp2015 Full Production [follow up on email] ⏫
 - [ ] Update property record for computer

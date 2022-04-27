@@ -4,29 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "ad24aa5f9ee4dc81",
+        "id": "ab53d33dd140a095",
         "type": "leaf",
-        "dimension": 78.3644859813084,
+        "dimension": 73.13432835820896,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-Week-17/2022-04-26.md",
+            "file": "2022-Week-17/2022-04-27.md",
             "mode": "source",
             "backlinks": true
           }
         }
       },
       {
-        "id": "e81b084329d1a33d",
+        "id": "c736de81ade01f52",
         "type": "leaf",
-        "dimension": 21.63551401869159,
+        "dimension": 26.865671641791046,
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Tasks.md",
             "mode": "source",
             "backlinks": true
-          }
+          },
+          "pinned": true
         }
       }
     ],
@@ -67,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298
+    "width": 247
   },
   "right": {
     "id": "95e9a6685d3f4a91",
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-Week-17/2022-04-26.md",
+                "file": "2022-Week-17/2022-04-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-Week-17/2022-04-26.md"
+                "file": "2022-Week-17/2022-04-27.md"
               }
             }
           }
@@ -111,17 +113,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ad24aa5f9ee4dc81",
+  "active": "ab53d33dd140a095",
   "lastOpenFiles": [
+    "2022-Week-17/2022-04-27.md",
     "2022-Week-17/2022-04-26.md",
-    "Tasks.md",
     "2022-Week-17/2022-04-25.md",
-    "2022-Week-16/2022-04-21.md",
-    "Templates/Thursday.md",
-    "Templates/Wednesday.md",
+    "Tasks.md",
+    "2022-Week-16/2022-04-18.md",
+    "2022-Week-16/Highlights.md",
+    "2022-Week-16/2022-04-22.md",
     "2022-Week-16/2022-04-20.md",
-    "2022 Week 15/2022-04-15.md",
-    "2022 Week 15/2022-04-14.md",
-    "2022-Week-16/2022-04-18.md"
+    "2022-Week-16/2022-04-21.md",
+    "geant4star/geant4star status 04-20-2022.md"
   ]
 }

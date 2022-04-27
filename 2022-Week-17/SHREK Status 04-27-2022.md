@@ -1,6 +1,6 @@
 SHREK Status 4/27/2022
 
-- Final design: SHREK acts as an abstraction layer on top of the workflow and data management services 
+- Final design: SHREK acts as an abstraction layer on top of PanDA and (eventually) Rucio
 - Users implement a set of job description files (yaml) which fully describe each job in the workflow (inspiration from SUMS)
 	- A "job" is a unit of work which takes a set of inputs and transforms them into a set of outputs, utilizing a set of resources (e.g. macros).
 

@@ -1,7 +1,7 @@
 SHREK Status 4/27/2022
 
-- Final design: SHREK acts as an abstraction layer on top of the workflow and data management services
-- Users implement a set of job description files (yaml) which fully describe each job in the workflow.
+- Final design: SHREK acts as an abstraction layer on top of the workflow and data management services 
+- Users implement a set of job description files (yaml) which fully describe each job in the workflow (inspiration from SUMS)
 	- A "job" is a unit of work which takes a set of inputs and transforms them into a set of outputs, utilizing a set of resources (e.g. macros).
 
 ---
@@ -33,16 +33,28 @@ JobCommands: |-
 
 ---
 
+- Users provide a set JobCommands (bash shell)
+- Resources (macros, scripts, etc... ) staged into the working directory when the job reaches the worker node
+- Parameters exposed as environment variables
+- Input/Output data sets used to build the workflow graph
+
+---
+
 SHREK parses the user-provided YAML files to build a *directed (acyclic) graph* 
 - nodes are the job descriptions
 - edges connect nodes from output to input
 
 ---
 
-
-![[Pasted image 20220420092749.png]]
+`shrek/scripts/buildWorkflowGraph.py --png --tag pythia8-charm tests/pythia8-charm-simulation/*.yaml`
+![[Pasted image 20220420092749.png|400]]
 
 ---
+
+
+
+---
+
 
 *"All problems in computer science can be solved by introducing another layer of abstraction."
 "... except the problem of too many abstractions.*

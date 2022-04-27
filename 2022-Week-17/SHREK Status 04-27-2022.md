@@ -36,7 +36,7 @@ JobCommands: |-
 - Users provide a set JobCommands (bash shell)
 - Resources (macros, scripts, etc... ) staged into the working directory when the job reaches the worker node
 - Parameters exposed as environment variables
-- Input/Output data sets used to build the workflow graph
+- Input/Output data sets used to build the workflow graph, and create the CWL document for PanDA submission
 
 ---
 
@@ -51,10 +51,18 @@ SHREK parses the user-provided YAML files to build a *directed (acyclic) graph*
 
 ---
 
-
+*... demo time ...*
 
 ---
 
+STATUS
+- Design set and well into implementation
+- Schemas defined for user input files
+- Unit tests defined (incomplete coverage...)
+- Submission directory populates w/ user-defined resources and CWL files
+- PanDA does not (yet) validate the CWL
+
+---
 
 *"All problems in computer science can be solved by introducing another layer of abstraction."
 "... except the problem of too many abstractions.*

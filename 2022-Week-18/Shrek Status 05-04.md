@@ -1,6 +1,5 @@
 # SHREK Status 05/04/2022
 
-
 ---
 
 - [PanDA Simple Chain](https://panda-wms.readthedocs.io/en/latest/client/pchain.html#simple-task-chain)
@@ -27,7 +26,9 @@
 sPHENIX HF Simulation Work w/ SHREK
 
 - [Defined by set of YAML files](https://github.com/klendathu2k/shrek/tree/main/tests/pythia8-charm-simulation)
-- Should have pass1 + pass2 (simulation plus pileup) running ~soon.
+	- Pass1 HF simulation
+	- Pass2 merge with prestaged minbias backgrounds
+		- May generate these instead?
 - Full workflow to follow
 
 

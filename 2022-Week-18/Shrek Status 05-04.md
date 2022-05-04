@@ -1,6 +1,5 @@
-# SHREK Status 
-## May The 4th
-*(be with you)*
+# SHREK Status 05/04/2022
+
 
 ---
 
@@ -21,8 +20,15 @@
 ---
 
 - I need to know where to get started with staging data sets / rucio
+- ... and retrieving data sets
 
 ---
+
+sPHENIX HF Simulation Work w/ SHREK
+
+- [Defined by set of YAML files](https://github.com/klendathu2k/shrek/tree/main/tests/pythia8-charm-simulation)
+- Should have pass1 + pass2 (simulation plus pileup) running ~soon.
+- Full workflow to follow
 
 
 

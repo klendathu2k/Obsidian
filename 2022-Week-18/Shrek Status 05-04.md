@@ -14,7 +14,7 @@
 	- Validates when submitted with `pchain --check`
 	- [Fails to complete](https://panda-doma.cern.ch/tasks/?jeditaskid=65555|65557|1651600566|65556)
 		- *Input data sets are not defined*
-		- Tasks which require no input run to completion
+	- Nevertheless, demonstrates that complicated workflows can be properly defined using SHREK. 
 
 ---
 

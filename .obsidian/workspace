@@ -6,24 +6,10 @@
       {
         "id": "ad24aa5f9ee4dc81",
         "type": "leaf",
-        "dimension": 78.3644859813084,
         "state": {
           "type": "markdown",
           "state": {
             "file": "2022-Week-18/Shrek Status 05-04.md",
-            "mode": "source",
-            "backlinks": true
-          }
-        }
-      },
-      {
-        "id": "e81b084329d1a33d",
-        "type": "leaf",
-        "dimension": 21.63551401869159,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Tasks.md",
             "mode": "source",
             "backlinks": true
           }
@@ -114,9 +100,9 @@
   "active": "ad24aa5f9ee4dc81",
   "lastOpenFiles": [
     "2022-Week-18/Shrek Status 05-04.md",
-    "2022-Week-18/2022-05-04.md",
-    "2022-Week-18/2022-05-03.md",
     "2022-Week-18/2022-05-02.md",
+    "2022-Week-18/2022-05-03.md",
+    "2022-Week-18/2022-05-04.md",
     "2022-Week-17/2022-04-25.md",
     "Templates/Monday.md",
     "2022-Week-17/2022-04-29.md",

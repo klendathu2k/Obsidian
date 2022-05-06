@@ -21,7 +21,8 @@ SHREK
 
 
 STAR 
+
 Jinlong is having issues running pp 2015 embedding.  The simulation stage works.  (NOTE to self-- Resolution of the physics bug in that library should be checked b/c user reports memory option still required...)  But the embedding step is segmentation faulting...
 
-This took some digging, but it appears that DBV timestamp used in the analysis chain is causing problems.
+This took some digging, but it appears that DBV timestamp used in the analysis chain is causing problems.  Conclusion: there is some change to the database structure that is incompatible with the SL16d_embed library.
 

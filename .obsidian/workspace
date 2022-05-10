@@ -8,11 +8,9 @@
         "type": "leaf",
         "dimension": 72.68007787151201,
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "SHREK.md",
-            "mode": "preview",
-            "backlinks": true
+            "file": "Pasted image 20220323093933 1.png"
           }
         }
       },
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SHREK.md",
+                "file": "Pasted image 20220323093933 1.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SHREK.md"
+                "file": "Pasted image 20220323093933 1.png"
               }
             }
           }
@@ -115,15 +113,15 @@
   },
   "active": "ab53d33dd140a095",
   "lastOpenFiles": [
-    "SHREK.md",
-    "2022-Week-16/Highlights.md",
-    "2022-Week-18/Highlights.md",
-    "2022-Week-18/2022-05-06.md",
-    "2022-Week-17/2022-04-29.md",
-    "STAR Experiment/geant4star memory usage.md",
-    "2022-Week-19/2022-05-10.md",
-    "2022-Week-16/2022-04-22.md",
-    "STAR.md",
-    "2022 Week 12/sPhenix Handy Remote Execution Coordinator.md"
+    "Pasted image 20220323093933 1.png",
+    "Pasted image 20220421103218.png",
+    "Pasted image 20220323093933.png",
+    "Pasted image 20220316084925.png",
+    "Pasted image 20220318104636.png",
+    "Pasted image 20220314155650.png",
+    "Pasted image 20220314120142.png",
+    "2022 Week 12/sPhenix Handy Remote Execution Coordinator.md",
+    "2022 Week 13/sPhenix Handy Remote Execution Coordinator 1.md",
+    "2022 Week 13/Pasted image 20220401161923.png"
   ]
 }

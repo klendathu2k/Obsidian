@@ -1,4 +1,5 @@
-SHREK
+[[SHREK]]
+
 - Achievment unlocked:  SHREK is now able to define workflows which execute under PanDA.  
 	- Demonstrated using the [simple](https://panda-doma.cern.ch/tasks/?jeditaskid=65588|65587) workflow, with a "top" job feeding its output into a "bottom" job.  Works as expected.
 	- More [complicated](https://panda-doma.cern.ch/tasks/?jeditaskid=65555|65557|1651600566|65556) example fails because the input datasets to the workflow do not exist.  Nevertheless, the "generation" parts of the example (which requires no output) run.  

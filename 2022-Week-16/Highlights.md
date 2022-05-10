@@ -1,4 +1,4 @@
-SHREK
+[[SHREK]]
 
 Implemented code to convert from a flat set of yaml files, each describing a single job in a workflow with its inputs and outputs, into a CWL document suitable for submission through PanDA.
 

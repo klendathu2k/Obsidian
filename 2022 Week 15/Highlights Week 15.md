@@ -12,6 +12,8 @@ Layout of the input files and supporting codes will be up to the user (in the pr
 
 The workflow *can*  be created dynamically as well from the yaml inputs.  Should be simply a matter of building the graph of nodes=jobs edges=(output-->input).  But some words of wisdom from Star Trek VI... just because we can do a thing, it does not necessarily follow that we must do that thing.  So first I should setup workflow templates.  Inputs, outputs, job scripts are the template parameters, filled in by shrek.
 
+[[SHREK]]
+
 ### Input file schema
 
 Established a schema for the job defintion files:

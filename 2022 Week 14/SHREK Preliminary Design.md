@@ -1,4 +1,4 @@
-SHREK Preliminary Design
+[[SHREK]] Preliminary Design
 
 ---
 

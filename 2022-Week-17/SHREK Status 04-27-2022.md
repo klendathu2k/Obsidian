@@ -1,4 +1,4 @@
-SHREK Status 4/27/2022
+[[SHREK]] Status 4/27/2022
 
 - Final design: SHREK acts as an abstraction layer on top of PanDA and (eventually) Rucio
 - Users implement a set of job description files (yaml) which fully describe each job in the workflow (inspiration from SUMS)

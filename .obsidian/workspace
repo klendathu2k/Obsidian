@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Tasks.md",
-            "mode": "preview",
+            "file": "2022 Week 12/2022-03-23.md",
+            "mode": "source",
             "backlinks": true
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks.md",
+                "file": "2022 Week 12/2022-03-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks.md"
+                "file": "2022 Week 12/2022-03-23.md"
               }
             }
           }
@@ -115,15 +115,15 @@
   },
   "active": "ab53d33dd140a095",
   "lastOpenFiles": [
+    "2022 Week 12/2022-03-23.md",
+    "PanDA Notes.md",
+    "PanDA Links.md",
     "Tasks.md",
     "SHREK.md",
     "2022-Week-19/2022-05-09.md",
     "2022-Week-17/2022-04-29.md",
     "2022-Week-17/2022-04-28.md",
     "2022-Week-17/2022-04-27.md",
-    "2022-Week-17/2022-04-26.md",
-    "2022-Week-17/2022-04-25.md",
-    "2022-Week-16/2022-04-22.md",
-    "2022-Week-17/SHREK Status 04-27-2022.md"
+    "2022-Week-17/2022-04-26.md"
   ]
 }

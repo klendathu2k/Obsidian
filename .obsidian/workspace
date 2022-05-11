@@ -8,9 +8,11 @@
         "type": "leaf",
         "dimension": 72.68007787151201,
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "Pasted image 20220323093933 1.png"
+            "file": "2022-Week-18/Shrek Status 05-04.md",
+            "mode": "preview",
+            "backlinks": true
           }
         }
       },
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20220323093933 1.png",
+                "file": "2022-Week-18/Shrek Status 05-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20220323093933 1.png"
+                "file": "2022-Week-18/Shrek Status 05-04.md"
               }
             }
           }
@@ -113,15 +115,15 @@
   },
   "active": "ab53d33dd140a095",
   "lastOpenFiles": [
+    "2022-Week-18/Shrek Status 05-04.md",
+    "2022 Week 15/Highlights Week 15.md",
+    "SHREK.md",
     "Pasted image 20220323093933 1.png",
     "Pasted image 20220421103218.png",
     "Pasted image 20220323093933.png",
     "Pasted image 20220316084925.png",
     "Pasted image 20220318104636.png",
     "Pasted image 20220314155650.png",
-    "Pasted image 20220314120142.png",
-    "2022 Week 12/sPhenix Handy Remote Execution Coordinator.md",
-    "2022 Week 13/sPhenix Handy Remote Execution Coordinator 1.md",
-    "2022 Week 13/Pasted image 20220401161923.png"
+    "Pasted image 20220314120142.png"
   ]
 }

@@ -7,5 +7,3 @@ Spent too much time fighting with PanDA credentials.... (logged in with jwebb in
 Able to get the simulation up and running in the first two steps without issue.  Then noted I was missing the correct definition of the secondary data sets.  Patched up shrek to provide these correctly.
 
 Then ran straight into server side issues that were finally sorted out over the weekend.
-
-

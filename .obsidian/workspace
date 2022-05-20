@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "ab53d33dd140a095",
+        "id": "40f707c08e361d0d",
         "type": "leaf",
-        "dimension": 72.68007787151201,
+        "dimension": 68.65325077399382,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-Week-20/2022-05-20.md",
+            "file": "2022-Week-20/Highlights (gag reel).md",
             "mode": "source",
             "backlinks": true
           }
@@ -19,7 +19,7 @@
       {
         "id": "c736de81ade01f52",
         "type": "leaf",
-        "dimension": 27.319922128487995,
+        "dimension": 31.34674922600619,
         "pinned": true,
         "state": {
           "type": "markdown",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-Week-20/2022-05-20.md",
+                "file": "2022-Week-20/Highlights (gag reel).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-Week-20/2022-05-20.md"
+                "file": "2022-Week-20/Highlights (gag reel).md"
               }
             }
           }
@@ -113,17 +113,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ab53d33dd140a095",
+  "active": "40f707c08e361d0d",
   "lastOpenFiles": [
-    "2022-Week-20/2022-05-20.md",
-    "2022-Week-20/2022-05-19.md",
+    "2022-Week-20/Highlights (gag reel).md",
     "2022-Week-20/2022-05-17.md",
+    "2022-Week-20/2022-05-19.md",
+    "2022-Week-20/2022-05-18.md",
     "2022-Week-20/2022-05-16.md",
-    "2022-Week-19/2022-05-12.md",
     "2022-Week-19/2022-05-13.md",
+    "2022-Week-20/2022-05-20.md",
+    "2022-Week-19/2022-05-12.md",
     "2022-Week-19/2022-05-11.md",
-    "2022-Week-18/Shrek Status 05-04.md",
-    "2022 Week 15/Highlights Week 15.md",
-    "SHREK.md"
+    "2022-Week-18/Shrek Status 05-04.md"
   ]
 }

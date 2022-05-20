@@ -1,4 +1,4 @@
-Added handshake to the panda server when shrek-submit runs, so that we don't freeze up when we have a stale token.  Now, we will be prompted to login and get a new, minty fresh token.  
+Added handshake to the panda server when shrek-submit runs, so that we don't freeze up when we have a stale token.  Now, we will be prompted to login and get a new, minty fresh token.   (Implemented on Monday.  Successfully tested on Friday morning when the token expired.)
 
 Tadashi made a server side fix over the weekend.  So issues I was having all day on Friday just magically disappeared. 
 
@@ -19,11 +19,19 @@ But... secondary file lists were empty.  Why?  Because the pchain documentation 
 
 "%IN2"  should have been "IN2".  The "%" token is used by PanDA to match where the reference IN2 for the dataset should be substituted.  Tadashi has corrected this mistake. 
 
-(Time for a rant.  Debugging *documentation* takes a long time, and could have been avoided if the examples on the pchain documentation page *had been tested at BNL*.  The one which uses the secondary data sets *do not run at BNL* because *they rely on data sets that do not exist at BNL*, so I could not test them properly myself. )
+(Time for a rant.  Debugging *documentation* takes a long time, and could have been avoided if the examples on the pchain documentation page *had been tested*.  They do not / cannot run at BNL, because they take as input data sets which have not been defined.)  
 
+Ran into another *fun* issue on Wednesday.  The pileup job was launching before all of the files it required had been produced by the charm and background simulations.  This spontaneously resolved Wednesday morning.  Although I have seen at least one more instance of this since then.  Once I have a production workflow setup and running at scale... can stress test to maybe identify.   But may well just be teething pains that have been fixed?
 
+Now, back to the issue with wildcard files...  I cannot actually unpack the tarballs that are handed to me.
 
-Ran into another *fun* issue on Wednesday.  The pileup job was launching before all of the files it required had been produced by the charm and background simulations.  This spontaneously resolved Wednesday morning.  Although I have seen at least one more instance of this since then.  Once I have a production workflow setup and running at scale... can stress test to maybe identify.   But may well just be teething pains.
+I am using the --forceStaged and --forceStagedSecondary options to prun.  I expect that the tarballs will be in the working directory on the node.  They are not.  I see symbolic links instead.  
+
+No matter.  Tar should be able to follow the link, correct?  WRONG!  The link appears to be circular.  See [this github gist...](https://gist.github.com/klendathu2k/d4dcbac7d6f219777006b09a22ac8bd1).  Emailing Tadashi... 
+
+Considering  a workaround for this.
+
+Defining outputs with a wildcard is required.  Not because the *number* of outputs is unknown, but because the *name* of the outputs is unknown.  Perhaps the solution here is to just pack the file up in a tarball myself, and unpack at the next stage of input.
 
 
 

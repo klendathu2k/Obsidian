@@ -34,4 +34,5 @@ Considering  a workaround for this.
 Defining outputs with a wildcard is required.  Not because the *number* of outputs is unknown, but because the *name* of the outputs is unknown.  Perhaps the solution here is to just pack the file up in a tarball myself, and unpack at the next stage of input.
 
 
+In summary, my week has felt like...
 

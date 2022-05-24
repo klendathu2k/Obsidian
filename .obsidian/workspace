@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-05-24.md",
+            "file": "2022-Week-21/2022-05-24.md",
             "mode": "source",
             "backlinks": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-05-24.md",
+                "file": "2022-Week-21/2022-05-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-05-24.md"
+                "file": "2022-Week-21/2022-05-24.md"
               }
             }
           }
@@ -115,6 +115,7 @@
   },
   "active": "40f707c08e361d0d",
   "lastOpenFiles": [
+    "2022-Week-21/2022-05-24.md",
     "2022-05-24.md",
     "2022-Week-20/Highlights (gag reel).md",
     "2022-Week-20/2022-05-20.md",
@@ -123,7 +124,6 @@
     "2022-Week-20/2022-05-17.md",
     "2022-Week-20/2022-05-16.md",
     "2022-Week-19/2022-05-13.md",
-    "2022-Week-19/2022-05-12.md",
-    "2022-Week-19/2022-05-11.md"
+    "2022-Week-19/2022-05-12.md"
   ]
 }

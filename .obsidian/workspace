@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "40f707c08e361d0d",
+        "id": "ad24aa5f9ee4dc81",
         "type": "leaf",
-        "dimension": 68.65325077399382,
         "state": {
           "type": "markdown",
           "state": {
             "file": "2022-Week-19/2022-05-11.md",
-            "mode": "preview",
-            "backlinks": true
-          }
-        }
-      },
-      {
-        "id": "c736de81ade01f52",
-        "type": "leaf",
-        "dimension": 31.34674922600619,
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Tasks.md",
             "mode": "source",
             "backlinks": true
-          },
-          "pinned": true
+          }
         }
       }
     ],
@@ -69,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296
+    "width": 332
   },
   "right": {
     "id": "95e9a6685d3f4a91",
@@ -113,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "40f707c08e361d0d",
+  "active": "ad24aa5f9ee4dc81",
   "lastOpenFiles": [
     "2022-Week-19/2022-05-11.md",
-    "2022-Week-19/2022-05-12.md",
-    "2022-Week-19/2022-05-13.md",
-    "2022-Week-19/Highlights and Lowlights.md",
-    "2022-Week-20/2022-05-20.md",
-    "2022-Week-20/2022-05-19.md",
-    "2022-Week-20/2022-05-18.md",
-    "2022-Week-20/2022-05-17.md",
+    "2022-Week-19/2022-05-10.md",
+    "2022-Week-19/2022-05-09.md",
     "2022-Week-20/2022-05-16.md",
+    "2022-Week-20/2022-05-17.md",
+    "2022-Week-20/2022-05-18.md",
+    "2022-Week-20/2022-05-19.md",
+    "2022-Week-20/2022-05-20.md",
+    "2022-Week-21/2022-05-25.md",
     "2022-Week-21/2022-05-24.md"
   ]
 }

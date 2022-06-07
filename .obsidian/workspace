@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-Week-23/2022-06-06.md",
+            "file": "2022-Week-23/2022-06-07.md",
             "mode": "source",
             "backlinks": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-Week-23/2022-06-06.md",
+                "file": "2022-Week-23/2022-06-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-Week-23/2022-06-06.md"
+                "file": "2022-Week-23/2022-06-07.md"
               }
             }
           }
@@ -115,6 +115,7 @@
   },
   "active": "40f707c08e361d0d",
   "lastOpenFiles": [
+    "2022-Week-23/2022-06-07.md",
     "2022-Week-23/2022-06-06.md",
     "MC Persistence.md",
     "2022-Week-21/2022-05-27.md",
@@ -123,7 +124,6 @@
     "2022-Week-21/2022-05-24.md",
     "2022-Week-21/2022-05-23.md",
     "2022-Week-22/2022-05-31.md",
-    "2022-Week-22/2022-05-30.md",
-    "2022-Week-19/2022-05-11.md"
+    "2022-Week-22/2022-05-30.md"
   ]
 }

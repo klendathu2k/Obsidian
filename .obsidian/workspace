@@ -4,15 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "ad24aa5f9ee4dc81",
+        "id": "40f707c08e361d0d",
         "type": "leaf",
+        "dimension": 77.7479892761394,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-Week-24/2022-06-14.md",
+            "file": "2022-Week-23/2022-06-10.md",
             "mode": "source",
             "backlinks": true
           }
+        }
+      },
+      {
+        "id": "c736de81ade01f52",
+        "type": "leaf",
+        "dimension": 22.25201072386059,
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Tasks.md",
+            "mode": "source",
+            "backlinks": true
+          },
+          "pinned": true
         }
       }
     ],
@@ -53,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332
+    "width": 296
   },
   "right": {
     "id": "95e9a6685d3f4a91",
@@ -69,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-Week-24/2022-06-14.md",
+                "file": "2022-Week-23/2022-06-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-Week-24/2022-06-14.md"
+                "file": "2022-Week-23/2022-06-10.md"
               }
             }
           }
@@ -97,17 +113,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ad24aa5f9ee4dc81",
+  "active": "40f707c08e361d0d",
   "lastOpenFiles": [
-    "2022-Week-24/2022-06-14.md",
-    "2022-Week-24/2022-06-13.md",
     "2022-Week-23/2022-06-10.md",
-    "2022-Week-23/2022-06-06.md",
     "2022-Week-23/2022-06-07.md",
-    "2022-Week-23/2022-06-08.md",
-    "2022-Week-23/2022-06-09.md",
-    "2022-Week-21/2022-05-25.md",
+    "2022-Week-23/2022-06-06.md",
+    "MC Persistence.md",
+    "2022-Week-21/2022-05-27.md",
     "2022-Week-21/2022-05-26.md",
-    "2022-Week-19/2022-05-11.md"
+    "2022-Week-21/2022-05-25.md",
+    "2022-Week-21/2022-05-24.md",
+    "2022-Week-21/2022-05-23.md",
+    "2022-Week-22/2022-05-31.md"
   ]
 }

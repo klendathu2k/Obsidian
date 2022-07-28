@@ -19,6 +19,8 @@ If a dataset or container is *open*, content can be added to it.
 
 Once *closed* the dataset or container *stays closed*... they cannot be reopened.  (They can be repaired if something is *LOST*).
 
+... but "reopen" command exists... for priveleged users?  
+
 ### [Rucio Storage Elements](https://rucio.cern.ch/documentation/rucio_storage_element)
 
 RSE == Rucio Storage Element... the smallest unit of storage space... logical abstraction...  unique ID plus metadata....

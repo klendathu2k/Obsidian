@@ -4,4 +4,4 @@ STAR StEvent / Forward Calorimetry
 
 sPHENIX / SHREK / HF Charm Workflow
 
-Scaling: 2 jobs @ 10 events
+Scaling tests up to 10 HF x 50 background jobs... failing during pass3 track reco ... one job seems to hang and then the production gets stuck.

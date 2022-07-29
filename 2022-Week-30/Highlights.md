@@ -4,4 +4,10 @@ STAR StEvent / Forward Calorimetry
 
 sPHENIX / SHREK / HF Charm Workflow
 
-Scaling tests up to 10 HF x 50 background jobs... failing during pass3 track reco ... one job seems to hang and then the production gets stuck.  This does not seem to be consistent, though... so allowing multiple attempts to produce data should (hopefully) resolve the problem.
+- Scaling tests up to 10 HF x 50 background jobs... failing during pass3 track reco ... one job seems to hang and then the production gets stuck.  This does not seem to be consistent, though... so allowing multiple attempts to produce data should (hopefully) resolve the problem.
+- Rucio... I have access now (running the setup script on cvmfs, using the sphnxpro credentials)... n.b. the Rucio documentation is inadequate... basically states that the client should work out of the box... but it doesn't even setup a default configuration file in your account.)
+- Rucio works (mostly)...   I can access the catalog... I can schedule files for removal (aka "erase").  I can create datasets, containers, and attach one to another.  But I cannot upload or download files, because it appears that that functionality is not setup... either the client isn't setup / configured correctly, or the local server isn't (or both).  Will follow up with Vincent. 
+- Now I can see an issue with the way PanDA is running workflows / 
+
+
+

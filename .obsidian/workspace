@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-Week-31/2022-08-05.md",
-            "mode": "source",
+            "file": "2022-Week-32/2022-08-08.md",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-Week-31/2022-08-05.md",
+                "file": "2022-Week-32/2022-08-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-Week-31/2022-08-05.md"
+                "file": "2022-Week-32/2022-08-08.md"
               }
             }
           }
@@ -99,6 +99,7 @@
   },
   "active": "ad24aa5f9ee4dc81",
   "lastOpenFiles": [
+    "2022-Week-32/2022-08-08.md",
     "2022-Week-31/2022-08-05.md",
     "2022-Week-31/2022-08-04.md",
     "2022-Week-31/2022-08-03.md",
@@ -107,7 +108,6 @@
     "C++ Topics.md",
     "2022-Week-24/2022-06-16.md",
     "2022-Week-24/2022-06-15.md",
-    "2022-Week-24/2022-06-14.md",
-    "2022-Week-24/2022-06-13.md"
+    "2022-Week-24/2022-06-14.md"
   ]
 }

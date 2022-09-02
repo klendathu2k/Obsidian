@@ -4,14 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ad24aa5f9ee4dc81",
+        "id": "bb64ca9e26b439de",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Memory Optimized Geometry Object Library.md",
+            "file": "2022-Week-35/2022-09-01.md",
             "mode": "source",
-            "backlinks": true
+            "backlinks": true,
+            "source": false
           }
         }
       }
@@ -53,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332
+    "width": 142.5
   },
   "right": {
     "id": "95e9a6685d3f4a91",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memory Optimized Geometry Object Library.md",
+                "file": "2022-Week-35/2022-09-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memory Optimized Geometry Object Library.md"
+                "file": "2022-Week-35/2022-09-01.md"
               }
             }
           }
@@ -97,17 +98,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ad24aa5f9ee4dc81",
+  "active": "bb64ca9e26b439de",
   "lastOpenFiles": [
-    "Memory Optimized Geometry Object Library.md",
-    "On Cache Friendly Code.md",
-    "2022-Week-35/2022-09-01.md",
     "2022-Week-35/2022-08-31.md",
+    "PanDA Links.md",
+    "PanDA Notes.md",
     "2022-Week-35/2022-08-30.md",
     "2022-Week-35/2022-08-29.md",
-    "Pasted image 20220819124629.png",
-    "Pasted image 20220829134328.png",
-    "MC Persistence.md",
-    "2022-Week-34/2022-08-26.md"
+    "2022-Week-34/2022-08-26.md",
+    "2022-Week-34/2022-08-25.md",
+    "2022-Week-34/2022-08-24.md",
+    "2022-Week-34/2022-08-23.md",
+    "2022-Week-33/2022-08-19.md"
   ]
 }

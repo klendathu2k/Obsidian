@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-Week-35/2022-09-02.md",
+            "file": "2022-Week-35/2022-09-03.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -54,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 142.5
+    "width": 228.5
   },
   "right": {
     "id": "95e9a6685d3f4a91",
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-Week-35/2022-09-02.md",
+                "file": "2022-Week-35/2022-09-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-Week-35/2022-09-02.md"
+                "file": "2022-Week-35/2022-09-03.md"
               }
             }
           }
@@ -98,8 +98,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bb64ca9e26b439de",
+  "active": "e16e433c6cd0bd55",
   "lastOpenFiles": [
+    "2022-Week-35/2022-09-02.md",
     "2022-Week-35/2022-09-01.md",
     "2022-Week-35/2022-08-31.md",
     "PanDA Links.md",
@@ -108,7 +109,6 @@
     "2022-Week-35/2022-08-29.md",
     "2022-Week-34/2022-08-26.md",
     "2022-Week-34/2022-08-25.md",
-    "2022-Week-34/2022-08-24.md",
-    "2022-Week-34/2022-08-23.md"
+    "2022-Week-34/2022-08-24.md"
   ]
 }

@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bb64ca9e26b439de",
+        "id": "cca01b18d82c5fb6",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "2022-Week-36/2022-09-05.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -70,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-Week-36/2022-09-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2022-Week-36/2022-09-05.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -98,17 +90,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bb64ca9e26b439de",
+  "active": "cca01b18d82c5fb6",
   "lastOpenFiles": [
-    "2022-Week-35/2022-09-03.md",
+    "2022-Week-37/2022-09-12.md",
     "2022-Week-36/2022-09-05.md",
+    "2022-Week-35/2022-09-03.md",
     "2022-Week-35/2022-09-02.md",
     "2022-Week-35/2022-09-01.md",
     "2022-Week-35/2022-08-31.md",
     "2022-Week-35/2022-08-30.md",
     "2022-Week-35/2022-08-29.md",
     "2022-Week-34/2022-08-26.md",
-    "2022-Week-34/2022-08-23.md",
-    "2022-Week-34/2022-08-22.md"
+    "2022-Week-34/2022-08-23.md"
   ]
 }

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-Week-37/2022-09-15.md",
+            "file": "2022-Week-38/2022-09-22.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-Week-37/2022-09-15.md",
+                "file": "2022-Week-38/2022-09-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-Week-37/2022-09-15.md"
+                "file": "2022-Week-38/2022-09-22.md"
               }
             }
           }
@@ -100,15 +100,15 @@
   },
   "active": "bb64ca9e26b439de",
   "lastOpenFiles": [
+    "2022-Week-38/2022-09-21.md",
+    "2022-Week-38/2022-09-20.md",
+    "2022-Week-38/2022-09-22.md",
+    "2022-Week-38/2022-09-19.md",
+    "2022-Week-37/2022-09-15.md",
     "2022 Week 12/2022 03-21 to 03-25.md",
     "2022 Week 11/2022-03-18.md",
     "2022 Week 11/2022-03-17.md",
     "2022 Week 11/2022-03-16.md",
-    "2022 Week 11/2022-03-15.md",
-    "2022 Week 11/2022-03-14.md",
-    "2022 Week 11/2022 03-14 to 03-18.md",
-    "2022-Week-37/2022-09-15.md",
-    "2022-Week-35/2022-09-02.md",
-    "2022-Week-35/2022-09-03.md"
+    "2022 Week 11/2022-03-15.md"
   ]
 }

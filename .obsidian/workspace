@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-Week-38/2022-09-23.md",
+            "file": "2022-Week-39/2022-09-26.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-Week-38/2022-09-23.md",
+                "file": "2022-Week-39/2022-09-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-Week-38/2022-09-23.md"
+                "file": "2022-Week-39/2022-09-26.md"
               }
             }
           }
@@ -100,8 +100,8 @@
   },
   "active": "cca01b18d82c5fb6",
   "lastOpenFiles": [
-    "Templates/Tuesday.md",
     "2022-Week-38/2022-09-23.md",
+    "Templates/Tuesday.md",
     "2022-Week-38/2022-09-22.md",
     "2022-Week-37/2022-09-15.md",
     "2022-Week-37/2022-09-14.md",

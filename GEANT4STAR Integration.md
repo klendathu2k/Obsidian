@@ -17,8 +17,13 @@ ModuleCmd_Load.c(213):ERROR:105: Unable to locate a modulefile for 'clhep-2.4.4.
 
 Hrmm.... some infrastructure changes since the last time I built this.  
 
-CLHEP has moved to ... clhep-2.4.5.1
-
 But the CI tests passed... so we can build somehow.  (How does the CI build?  We are moving quite a bit away from the "standard" STAR environment...)
 
+CLHEP has moved to ... clhep-2.4.5.1
+
+Build script needs to be tweaked a bit...
+
+cons... tonnes of warnings ...  
+
+Need to build stic before anything else...
 

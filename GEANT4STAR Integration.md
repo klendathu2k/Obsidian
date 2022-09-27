@@ -1,5 +1,7 @@
 ### Geant4star Integration 
 
+----------------
+
 Pull reques t [PR377](https://github.com/star-bnl/star-sw/pull/377) reduced to a minimum number of changes which only supports the loading of geant4 and geant4 vmc libraries via BFC.
 
 No action on this yet...
@@ -24,5 +26,10 @@ ModuleCmd_Load.c(213):ERROR:105: Unable to locate a modulefile for 'clhep-2.4.4.
 - [x] Path may have gotten mucked up a bit...
 - [x] Clean up disk space ...
 - [x] And build
+
+... Looks like we are back to building ... expect this to succeed.  Then we should integrate.
+
+----------------
+
 
 

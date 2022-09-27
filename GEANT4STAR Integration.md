@@ -8,4 +8,17 @@ No action on this yet...
 
 Missed an update from Xin... would recommend we proceed (would like to have at least Gene approve on this...)
 
+.... Try a build...
+
+```
+ $ source StRoot/StGeant4Maker/etc/setup
+ModuleCmd_Load.c(213):ERROR:105: Unable to locate a modulefile for 'clhep-2.4.4.0'
+```
+
+Hrmm.... some infrastructure changes since the last time I built this.  
+
+CLHEP has moved to ... clhep-2.4.5.1
+
+But the CI tests passed... so we can build somehow.  (How does the CI build?  We are moving quite a bit away from the "standard" STAR environment...)
+
 

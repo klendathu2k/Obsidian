@@ -1,3 +1,5 @@
+Miscellaneous pull requests... plus...
+
 ROOT6 / Geant4star Integration
 
 - Able to build the STAR software stack against root 6.16.00 using the new STAR environment with spack module support provided by Dmitri / Jerome... PR by Daniel.
@@ -44,4 +46,42 @@ ROOT5 (CINT interpreter) and ROOT6 (cling compiler / interpreter) behave very di
 
 Essentially the bfc.C macro *loads shared libraries and root dictionaries at run time.*
 
-ROOT6 is *compiles the full macro*.  But he shared libraries / dictionaries are loaded at run time.  Even if we include the header files (to create the interface to the user codes)... ROOT6 will still not be able to compile / link the macro because the shared library containing the StAnalysisMaker has not been loaded.   Our standard macros cannot be run without heavy modification, because the `bfc` calls have to be resolved before 
+ROOT6 is *compiles the full macro*.  But he shared libraries / dictionaries are loaded at run time.  Even if we include the header files (to create the interface to the user codes)... ROOT6 will still not be able to compile / link the macro because the shared library containing the StAnalysisMaker has not been loaded.   Our standard macros cannot be run without heavy modification, because the `bfc` calls have to be resolved before root6 compiles the macro.
+
+```
+root bfc.C(-1,"<list of chain options") bfcRunner.C
+...
+void bfcRunner() {
+  // ...
+  StAnalysisMaker* mk = chain->GetMaker("analysis");
+  mk->setSomething("blah",1);  
+}
+```
+
+... but it will be difficult to mix chains as is done in embedding...
+
+
+Possible workaround is to wrap every line (or perhaps just critical lines) with the interpreter...  either
+
+```
+bfcWrapper.C pseudocode
+void bfcWrapper() {
+  while ( line = getline() )
+    if ( gInterpreter -> ProcessLine(line) ) {
+       // handle error conditions...
+    }
+}
+```
+
+or...
+
+```
+#define eval( x ) gInterpreter->ProcessLine( #x )
+void bfcRunner() {
+  bfc(-1,"<list of options>");
+  // ...  
+  eval( StMyMaker* mymk = new StMyMaker(); )
+  eval( mymk->setBlah(); )
+}
+```
+

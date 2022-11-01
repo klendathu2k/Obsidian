@@ -11,4 +11,26 @@ ROOT6 / Geant4star Integration
 - Run a simulation (geant3 / starsim) through the big full chain
 	- Identified / resolved an issue in the BFC.C macro which prevented runtime initialization of the big full chain
 		- [PR 423](https://github.com/star-bnl/star-sw/pull/423)
-	- First attempt running an example macro 
+	- First attempt running [example macro](https://github.com/star-bnl/star-sw/blob/main/StRoot/StarGenerator/macros/starsim.kinematics.C)
+		- Fails...
+	- *Significantly* reworked the macro until it ran... 
+	- Analyzed why...
+
+We will have a significant issue with running many STAR macros unmodified.  Most specifically in our simulation and embedding macros.  We follow a typical idiom...
+
+```
+0001 | StChain* chain1=0;
+0002 | StChain* chain2=0;
+0003 | // ...
+0004 | macro bfcRunner() {
+0005 | 
+0006 |   gROOT->LoadMacro("bfc.C")
+0007 |   bfc(-1,"<list of chain options>");
+0008 |   chain1 = chain;
+0009 |   bfc(-1,"<another list of chain options");
+0010 |   chain2 = chain;
+0011 |   // ...
+0012 | }
+```
+
+The `bfc.C` macro mixes two concerns: (1) loading shared libraries, (2) creating the hierarchy of makers (aka the analysis chain).  

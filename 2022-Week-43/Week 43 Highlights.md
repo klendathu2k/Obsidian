@@ -19,6 +19,7 @@ ROOT6 / Geant4star Integration
 We will have a significant issue with running many STAR macros unmodified.  Most specifically in our simulation and embedding macros.  We follow a typical idiom...
 
 ```
+*bfcRunner.C*
 0001 | StChain* chain1=0;
 0002 | StChain* chain2=0;
 0003 | // ...
@@ -30,7 +31,17 @@ We will have a significant issue with running many STAR macros unmodified.  Most
 0009 |   bfc(-1,"<another list of chain options");
 0010 |   chain2 = chain;
 0011 |   // ...
-0012 | }
+0012 |   StAnalysisMaker* mk = chain->GetMaker("analysis");
+0013 |   mk->setSomething("blah",1);
+0014 |   // ...
+0015 | 
+0016 | }
 ```
 
-The `bfc.C` macro mixes two concerns: (1) loading shared libraries, (2) creating the hierarchy of makers (aka the analysis chain).  
+The `bfc.C` macro mixes several concerns: (1) loading shared libraries, (2) and the ROOT dictionaries, (3) creating the hierarchy of makers (aka the analysis chain).  
+
+ROOT5 (CINT interpreter) and ROOT6 (cling compiler / interpreter) behave very differently when processing macros.  ROOT5 interprets the macro line-by-line.  So on line 0007, the bfc macros loads in all of the shared libraries specified by the chain options *and* the corresponding root dictionaries.  This makes available to the interpreter the symbols needed to access the analysis maker and other user codes within the macro and perform run time configuration.  
+
+Essentially the bfc.C macro *loads shared libraries and root dictionaries at run time.*
+
+ROOT6 is *compiles the full macro*.  But he shared libraries / dictionaries are loaded at run time.  Even if we include the header files (to create the interface to the user codes)... ROOT6 will still not be able to compile / link the macro because the shared library containing the StAnalysisMaker has not been loaded.   Our standard macros cannot be run without heavy modification, because the `bfc` calls have to be resolved before 

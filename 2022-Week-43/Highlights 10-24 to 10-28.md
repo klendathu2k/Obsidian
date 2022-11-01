@@ -26,7 +26,7 @@ We will have a significant issue with running many STAR macros unmodified.  Most
 0002 | StChain* chain2=0;
 0003 | // ...
 0004 | macro bfcRunner() {
-0005 | 
+0005 |   StChain topChain;
 0006 |   gROOT->LoadMacro("bfc.C")
 0007 |   bfc(-1,"<list of chain options>");
 0008 |   chain1 = chain;
@@ -40,7 +40,7 @@ We will have a significant issue with running many STAR macros unmodified.  Most
 0016 | }
 ```
 
-The `bfc.C` macro mixes several concerns: (1) loading shared libraries, (2) and the ROOT dictionaries, (3) creating the hierarchy of makers (aka the analysis chain).  
+The `bfc.C` macro mixes several concerns: (1) loading shared libraries, (2) and the ROOT dictionaries, (3) creating the hierarchy of makers (aka the analysis chain), and (4) steering the analysis.
 
 ROOT5 (CINT interpreter) and ROOT6 (cling compiler / interpreter) behave very differently when processing macros.  ROOT5 interprets the macro line-by-line.  So on line 0007, the bfc macros loads in all of the shared libraries specified by the chain options *and* the corresponding root dictionaries.  This makes available to the interpreter the symbols needed to access the analysis maker and other user codes within the macro and perform run time configuration.  
 
@@ -85,3 +85,10 @@ void bfcRunner() {
 }
 ```
 
+-----------
+
+Should note that most of our data production jobs are single-chain jobs... 
+
+`$ root4star -q -b bfc.C(<nev>,"<chain opts>","<filename>")`
+
+As long as bfc.C compiles (which is does), it will run fine.

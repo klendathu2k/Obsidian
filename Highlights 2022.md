@@ -43,3 +43,18 @@ SHREK timeline
 - Week 23... still stalled on the PanDA side
 - Week 24 ... push job artefacts to github repository.
 	- Should note that this is not entirely
+
+... Lost it for a bit ...
+
+- [[Highlights Week 30]] Week 30 (07/25)
+	- SHREK implemeted resuable secondary stream
+	- Begin scaling tests... (long saga...)
+	- First attempts playing with rucio
+		- Intermediate products are persistent...
+-  Week 31  (08/01)
+	- Wall clock issue identified
+	- Discussion w/ Chris on distortion corrections...
+	- 10% of each run to be processed for calibration purposes before full reconstruction gets launched... Exact layout TBD
+- Week 32 (08/08)
+	- Updated to more recent sPHENIX workflows
+	- 

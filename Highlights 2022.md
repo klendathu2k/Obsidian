@@ -62,4 +62,9 @@ SHREK timeline
 - [[2022-08-22]] Week 34
 	- More PanDA instability... scaling tests ... running into wall
 - Week 35 (08/29)
-	- 
+	- Mapped command line arguements to shrek variables (both in the executive scripting and dataset definitions)
+- Week 37... donkey implementation [[2022-09-12]]
+- Week 38 (09/19)...
+	- Beginning to think constant reauth to both PanDA DOMA and github is a pain in the butt.  Beginning to rethink doc / persistency
+- Week 39
+	- Walltime limit includes a x2 safety margin... remember, this is a user-centric rather than a production-centric system.  User will quote 

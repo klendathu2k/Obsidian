@@ -57,4 +57,9 @@ SHREK timeline
 	- 10% of each run to be processed for calibration purposes before full reconstruction gets launched... Exact layout TBD
 - Week 32 (08/08)
 	- Updated to more recent sPHENIX workflows
+- Week 33 (08/15)
+	- Debugging some filename issues w/r to the new workflows
+- [[2022-08-22]] Week 34
+	- More PanDA instability... scaling tests ... running into wall
+- Week 35 (08/29)
 	- 

@@ -6,13 +6,16 @@ geant4star timeline
 
 12/2021
 - Volume extensions --> map rather than using the TGeo extension mechanism (aiming for geant3 vmc and mixed engines)
+- Found issue with geant3 SD implementation
+	- [PR#34 @ VMC github](https://github.com/vmc-project/geant3/pull/34)
 - Multiengine mode
 
 01/2022
 - Fix... track propagation cuts and options on all engines
 
 02/2022
-- 
+- Cleanup inconsistencies between geant4star development branch and main branch.
+
 
 
 

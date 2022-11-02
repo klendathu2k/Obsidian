@@ -1,0 +1,1 @@
+Discussion from last week's 10/26 STAR S&C meeting looked at the proposed design & layout of the RHICf data structures.

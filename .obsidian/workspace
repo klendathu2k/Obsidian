@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022 Week 14/SHREK Preliminary Design.md",
+            "file": "2022-Week-17/SHREK Status 04-27-2022.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -19,6 +19,7 @@
       {
         "id": "2f296b3f11fcc31d",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
@@ -26,7 +27,8 @@
             "mode": "source",
             "backlinks": true,
             "source": false
-          }
+          },
+          "pinned": true
         }
       }
     ],
@@ -113,15 +115,15 @@
   },
   "active": "2f296b3f11fcc31d",
   "lastOpenFiles": [
-    "2022 Week 14/SHREK Preliminary Design.md",
+    "2022-Week-17/SHREK Status 04-27-2022.md",
+    "2022-Week-16/Highlights Week 16.md",
     "Highlights 2022.md",
+    "2022 Week 15/Highlights Week 15.md",
+    "2022 Week 15/SHREK Status 04-15-22.md",
+    "2022 Week 14/SHREK Preliminary Design.md",
     "2022 Week 14/Highlights Week 14.md",
     "2022 Week 13/sPhenix Handy Remote Execution Coordinator 1.md",
     "2022 Week 13/Highlights Week 13.md",
-    "2022 Week 12/sPhenix Handy Remote Execution Coordinator.md",
-    "2022 Week 12/2022 03-21 to 03-25.md",
-    "STAR Experiment/geant4star/geant4star status.md",
-    "2022 Week 11/2022 03-14 to 03-18.md",
-    "2022-Week-41/2022-10-12.md"
+    "2022 Week 12/sPhenix Handy Remote Execution Coordinator.md"
   ]
 }

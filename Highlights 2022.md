@@ -16,11 +16,18 @@ SHREK timeline
 	- [[sPhenix Handy Remote Execution Coordinator 1]]
 		- Hrmmm.... was still considering a pure CWL solution at this point?
 		- Began developing a tagging convention (putting the cart before the donkey here...)
-- [[Highlights Week 14]]
+- [[Highlights Week 14]] 4/4
 	- Converging on YAML file description of the jobs...
 	- [[SHREK Preliminary Design]]
 	- Heavily influenced on STAR [SUMS](https://www.osti.gov/servlets/purl/1479267) XML description of jobs
 	- Additional wrinkle that SHREK should manage multiple interdependent jobs (i.e. a workflow) rather than a straight lineral chain of jobs handled by SUMS.
-	- 
-
+* [[Highlights Week 15]] 4/11
+	* Preliminary design choice... each job in a workflow specified by a YAML document.
+	* Build the CWL for pchain input by analyzing the YAML files to establish the graph with outputs --> inputs
+	* Established the schema for the yaml files...
+		* Think this still had some development work
+* [[Highlights Week 16]]
+	* ~90% towards a working example chain
+- [[SHREK Status 04-27-2022]]
+	- Job definition layer on top of PanDA / Rucio
 

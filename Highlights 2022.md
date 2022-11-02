@@ -41,4 +41,5 @@ SHREK timeline
 - Week 21... the PanDA has issues (and no unit tests?)
 - Week 22... shortened week (memorial day weekend)... still have PanDA side issues
 - Week 23... still stalled on the PanDA side
-- 
+- Week 24 ... push job artefacts to github repository.
+	- Should note that this is not entirely

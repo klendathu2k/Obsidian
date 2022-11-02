@@ -5,7 +5,16 @@ geant4star timeline
 - Mapping command line options to event generators (pythia6, 8)
 
 12/2021
-- Volume exten
+- Volume extensions --> map rather than using the TGeo extension mechanism (aiming for geant3 vmc and mixed engines)
+- Multiengine mode
+
+01/2022
+- Fix... track propagation cuts and options on all engines
+
+02/2022
+- 
+
+
 
 [[geant4star status]] presented 03/15
 [[geant4star status 04-20-2022]] presented 04/20/22

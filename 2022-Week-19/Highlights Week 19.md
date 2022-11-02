@@ -1,3 +1,5 @@
+Week of 05/09
+
 SHREK 
 
 Setup the sPHENIX heavy flavor workflow to run charm (signal) + minbias (background) feeding those two inputs into the pileup job.  Required a small workaround, hardcoding the location of the HepMC input files used for event generation on the minbias sample b/c (1) do not yet have ability to create datasets via rucio and (2) unable to stage large (2GB+) files (b/c soft limit for PanDA / hard limit on home directory quotas...)

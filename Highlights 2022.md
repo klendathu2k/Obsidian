@@ -30,4 +30,15 @@ SHREK timeline
 	* ~90% towards a working example chain
 - [[SHREK Status 04-27-2022]]
 	- Job definition layer on top of PanDA / Rucio
-
+- [[Highlights Week 18]]
+	- First workflows executing on PanDA (simple examples)
+-  [[Highlights Week 19]]
+	- HF Workflow implementation work begins
+	- Many scrapes and scars wrestling with the PanDA...
+- [[Highlights Week 20]]
+	- Ran into mistake in PanDA pchain documentation.
+![[Pasted image 20220517131111.png]]
+- Week 21... the PanDA has issues (and no unit tests?)
+- Week 22... shortened week (memorial day weekend)... still have PanDA side issues
+- Week 23... still stalled on the PanDA side
+- 

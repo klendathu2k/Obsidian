@@ -1,8 +1,17 @@
 geant4star timeline
 
+10/2021
+- Enabled geant.root persistency
+- Mapping command line options to event generators (pythia6, 8)
+
+12/2021
+- Volume exten
+
 [[geant4star status]] presented 03/15
 [[geant4star status 04-20-2022]] presented 04/20/22
 - The big PR #311
+
+- [[2022-09-29]] Have split the code into preliminary chunk... working from there.
 
 
 StEvent Maintence
@@ -67,4 +76,9 @@ SHREK timeline
 - Week 38 (09/19)...
 	- Beginning to think constant reauth to both PanDA DOMA and github is a pain in the butt.  Beginning to rethink doc / persistency
 - Week 39
-	- Walltime limit includes a x2 safety margin... remember, this is a user-centric rather than a production-centric system.  User will quote 
+	- Walltime limit includes a x2 safety margin... remember, this is a user-centric rather than a production-centric system.  User will quote time *a* job takes to complete... and PanDA assumes that to be the mean time.  Wants all jobs to complete... x2 safety.  (Jeesh).
+	- 
+- Week 40 
+	- Scaling up to arbitrary size should work from this point forward.
+	- PanDA is on the fritz again...
+	- Shifting back to STAR

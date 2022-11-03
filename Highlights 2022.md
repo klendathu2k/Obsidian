@@ -42,7 +42,11 @@ With the completion of the STAR forward upgrade, the STAR experiment gains acces
 
 Previously I have developed a Geant4 simulation within the STAR framework utilizing the virtual Monte Carlo simulation package.  The geant4star application demonstrated consistency with the MC event data model and compatability with the full STAR software stack.   Integration onto the main branch of the STAR software stack, and physics validation remained as open tasks.    
 
-Before work began on these tasks, I decided to implement a new feature provided within the VMC framework: the ability to run *both* GEANT3 and Geant4 physics models in a single simulation run.  The advantage of this approach is that the midrapidity physics simulation can remain (essentially) unchanged compared with prior phsyics analyses, while the forward physics program can leverage the improved hadronic 
+Before work began on these tasks, I decided to implement a new feature provided within the VMC framework: the ability to run *both* GEANT3 and Geant4 physics models in a single simulation run.  The advantage of this approach is that the midrapidity physics simulation can remain (essentially) unchanged compared with prior phsyics analyses, while the forward physics program can leverage the improved hadronic physics simulation afforted by Geant4.  Further, it enables direct comparison between G3 and G4 physics observables at midrapidity, which will help in tuning the G4 physics lists in the future.
+
+In implementing this feature, I had to overcome three issues.  First, the treatment of extended geometry information used in truth tagging had to be reshaped because the GEANT3 VMC 
+
+[1] https://github.com/vmc-project/geant3/pull/34
 
 
 in the forward direction for the remainder of the RHIC experimental program.  These include inclusive jets and di-jets, direct photons, Drell-Yan dielectrons and Lambda polarization.  These measurements may be made both standalone, and in corrleation with the midrapidity detectors at STAR.

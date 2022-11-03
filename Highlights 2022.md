@@ -44,21 +44,22 @@ Previously I have developed a Geant4 simulation within the STAR framework utiliz
 
 Before work began on these tasks, I decided to implement a new feature provided within the VMC framework: the ability to run *both* GEANT3 and Geant4 physics models in a single simulation run.  The advantage of this approach is that the midrapidity physics simulation can remain (essentially) unchanged compared with prior phsyics analyses, while the forward physics program can leverage the improved hadronic physics simulation afforted by Geant4.  Further, it enables direct comparison between G3 and G4 physics observables at midrapidity, which will help in tuning the G4 physics lists in the future.
 
-In implementing this feature, I had to overcome three issues.  First, the treatment of extended geometry information used in truth tagging had to be reshaped because the GEANT3 VMC 
-
+In implementing this feature, I had to overcome three issues.  First, the representation of AgML extended geometry information used in truth tagging had to be reshaped due to the use (abuse) of the TGeoExtension mechanism by the GEANT3 VMC developers.  Second, track propagation cuts and physics options had to be implemented consistently for both the G3 and G4 physics engines.  Importantly, default values had to be made consistent with those utilized in *starsim*.  And third, a design issue with the GEANT3 VMC application was identified and fixed.  A contribution back to the VMC project was made:
 [1] https://github.com/vmc-project/geant3/pull/34
 
+Milestones:  
+- commit working source code for full codebase with geant4star added to git  
+	- 
+- provide a release in the EVAL area in afs  
+- make pull request for the integration of geant4star on the main branch  
+- responding to comments, break PR into smaller units  
+- work with stakeholders to define QA metrics for the initial physics evaluations
 
-in the forward direction for the remainder of the RHIC experimental program.  These include inclusive jets and di-jets, direct photons, Drell-Yan dielectrons and Lambda polarization.  These measurements may be made both standalone, and in corrleation with the midrapidity detectors at STAR.
+Codes were assembled on a (rather large) integration branch for review.    An evaluation release was provided on AFS for stakeholders to evaluate, but workforce was not identified.  Comments from the reviewers were that too many changes were being introduced for a single pull request, and the code should be broken up into smaller requests.  An intial request has been made, with requests for reshape to respect a new procedure for defining the environment.
 
-The forward upgrades include both tracking and calorimetry, including hadronic calorimetry for the first time at STAR in a production context.  
 
-• Hadrons in jets  
-• Direct photons  
-• Drell-Yan !!!"  
-• Lambda polarization  
-• Mid-forward & forward-forward rapidity  
-correlations
+
+
 
 
 StEvent Maintence

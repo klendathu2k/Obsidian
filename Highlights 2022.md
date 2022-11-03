@@ -154,6 +154,7 @@ Milestones
 	- The complete heavy-flavor charm simulation, including pileup simulation and event reconstruction, has been implemented.
 	- I have shown that the code runs at scale, executing over the full time 
 - Develop a package which can document the reconstruction jobs which are run  
-- 
+	- During job submission, option to push the job submission directory to gitub (containing all files required to run the job and/or regenerate the job)
 - Work towards supporting the ongoing mock data challenge(s) with a prototype production system  
+	- Decided to wait until the BNL instance of PanDA is available to begin support of MDC.
 - Work with stakeholders to refine the system with an eye towards supporting experimental operations from day one

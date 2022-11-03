@@ -40,6 +40,11 @@ Milestones:
 
 With the completion of the STAR forward upgrade, the STAR experiment gains access to several observables at forward rapidity, such as jets, dijets, Drell-Yan dielectrons, and Lambda polarization.  These measurements are enabled by both the high precision tracking and calorimetry.  To fully maximize the physics impact of the forward hadronic calorimeter, an upgrade of STAR's simulation packages from GEANT3 to Geant4 is required.
 
+Previously I have developed a Geant4 simulation within the STAR framework utilizing the virtual Monte Carlo simulation package.  The geant4star application demonstrated consistency with the MC event data model and compatability with the full STAR software stack.   Integration onto the main branch of the STAR software stack, and physics validation remained as open tasks.    
+
+Before work began on these tasks, I decided to implement a new feature provided within the VMC framework: the ability to run *both* GEANT3 and Geant4 physics models in a single simulation run.  The advantage of this approach is that the midrapidity physics simulation can remain (essentially) unchanged compared with prior phsyics analyses, while the forward physics program can leverage the improved hadronic 
+
+
 in the forward direction for the remainder of the RHIC experimental program.  These include inclusive jets and di-jets, direct photons, Drell-Yan dielectrons and Lambda polarization.  These measurements may be made both standalone, and in corrleation with the midrapidity detectors at STAR.
 
 The forward upgrades include both tracking and calorimetry, including hadronic calorimetry for the first time at STAR in a production context.  

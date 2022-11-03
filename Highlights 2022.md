@@ -16,14 +16,15 @@ geant4star timeline
 02/2022
 - Cleanup inconsistencies between geant4star development branch and main branch.
 
-
-
+[geant4star status](https://drupal.star.bnl.gov/STAR/event/2022/02/09/SC-Management-Meeting/GEANT4-ROOT6-update) 02/09
 
 [[geant4star status]] presented 03/15
 [[geant4star status 04-20-2022]] presented 04/20/22
 - The big PR #311
 
 - [[2022-09-29]] Have split the code into preliminary chunk... working from there.
+
+
 
 
 StEvent Maintence

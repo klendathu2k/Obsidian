@@ -143,3 +143,5 @@ The production system will be responsible for submitting reconstruction jobs to 
 4. Work towards supporting the ongoing mock data challenge(s) with a prototype production system  
 5. Work with stakeholders to refine the system with an eye towards supporting experimental operations from day one
 ```
+
+SHREK, the sPHENIX Handy Remote Execution Koordinator (working title), is being developed to manage the data productions of the sPHENIX experiment.  Two main components have thus far been developed.  (1) SHREK, which consists of a job description language input into a frontend python script which constructs the workflow language document(s) used in PaNDA

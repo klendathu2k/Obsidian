@@ -40,9 +40,6 @@ Milestones:
 
 With the completion of the STAR forward upgrade, the STAR experiment gains access to several observables at forward rapidity, such as jets, dijets, Drell-Yan dielectrons, and Lambda polarization.  These measurements are enabled by both the high precision tracking and calorimetry.  To fully maximize the physics impact of the forward hadronic calorimeter, an upgrade of STAR's simulation packages from GEANT3 to Geant4 is required.
 
-The geant4star project has been in development to satisfy the needs of the forward physics program.   Over the past year I have 
-
-
 in the forward direction for the remainder of the RHIC experimental program.  These include inclusive jets and di-jets, direct photons, Drell-Yan dielectrons and Lambda polarization.  These measurements may be made both standalone, and in corrleation with the midrapidity detectors at STAR.
 
 The forward upgrades include both tracking and calorimetry, including hadronic calorimetry for the first time at STAR in a production context.  

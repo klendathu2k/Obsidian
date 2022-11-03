@@ -25,11 +25,12 @@ geant4star timeline
 - [[2022-09-29]] Have split the code into preliminary chunk... working from there.
 
 
-
-
 StEvent Maintence
 
 - Took over responsability for STAR EDM 03/2022
+- Forward Upgrades data structures
+	- Reviewed StEvent proposals... found issue with adding GenFit dependency
+	- 
 
 SHREK timeline
 - 03/21 Week -- Clarified w/ Tadashi the usage of CWL in PanDA is limited.  

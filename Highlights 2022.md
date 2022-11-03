@@ -49,18 +49,16 @@ In implementing this feature, I had to overcome three issues.  First, the repres
 
 Milestones:  
 - commit working source code for full codebase with geant4star added to git  
-	- 
-- provide a release in the EVAL area in afs  
 - make pull request for the integration of geant4star on the main branch  
 - responding to comments, break PR into smaller units  
+	- Codes were assembled on a (rather large) integration branch for review.   Reviewers recommended breaking into smaller pull requests.  First such PR is focused on infrastructure (loading geant, vmc libraries) and should be reshaped to utilize a recent change in the infrastructure to support changes to the environment through spack.  
+	- Final integration onto the main branch will likely require migration of the STAR software stack to ROOT 6.  Or alternatively, supporting geant4star with a seperate build of the software stack.
+- provide a release in the EVAL area in afs  
 - work with stakeholders to define QA metrics for the initial physics evaluations
-
-Codes were assembled on a (rather large) integration branch for review.    An evaluation release was provided on AFS for stakeholders to evaluate, but workforce was not identified.  Comments from the reviewers were that too many changes were being introduced for a single pull request, and the code should be broken up into smaller requests.  An intial request has been made, with requests for reshape to respect a new procedure for defining the environment.
-
+	- This was performed using the code in the initial pull request.  Some discussion with stakeholders about physics evaluations began.  But due to the physics run, workforce was not available.  
 
 
-
-
+Moving forward, we still need to integrate with the full STAR software stack and perform a physics evaluation.  Integration will lower the threshold for stakeholders to perform such studies.  And integration will required migration to ROOT 6.
 
 StEvent Maintence
 

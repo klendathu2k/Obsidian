@@ -144,4 +144,16 @@ The production system will be responsible for submitting reconstruction jobs to 
 5. Work with stakeholders to refine the system with an eye towards supporting experimental operations from day one
 ```
 
-SHREK, the sPHENIX Handy Remote Execution Koordinator (working title), is being developed to manage the data productions of the sPHENIX experiment.  Two main components have thus far been developed.  (1) SHREK, which consists of a job description language input into a frontend python script which constructs the workflow language document(s) used in PaNDA
+SHREK, the sPHENIX Handy Remote Execution Koordinator (working title), is being developed to manage the data productions of the sPHENIX experiment.  It consists of several components.  (1) A job description language, (2) a job submission script, and (3) a monitoring and dispatch service.  These components are used as a frontend to the PanDA workflow management system.
+
+The job description language is implemented in YAML, allowing users to specify in a single text filethe input and output datasets to a job, the location of required job artefacts (eg macros), and the job script (bash) which will execute on the remote service.  The job description language allows all parameters for the job to be defined in a single file (this includes both user's parameters, as well as any PanDA options which need to be specified.)   The job submission script parses one or more job description files, creates the common workflow language document that PanDA uses to steer the workflow, and assembles the job artefacts within a job submission directory.  Optionally the submission directory can be archived on github for documentation purposes.  Finally, a monitoring and dispatch service (aka "donkey") has been implemented, which can poll a file managment resource (eg rucio) and launch user-specified actions (eg sumit a job to PanDA) when datasets matching certain criteria become available.
+
+Milestones
+- Demonstrate sPHENIX workflows running on PanDA  
+- Verify that data processing runs at scale  
+	- The complete heavy-flavor charm simulation, including pileup simulation and event reconstruction, has been implemented.
+	- I have shown that the code runs at scale, executing over the full time 
+- Develop a package which can document the reconstruction jobs which are run  
+- 
+- Work towards supporting the ongoing mock data challenge(s) with a prototype production system  
+- Work with stakeholders to refine the system with an eye towards supporting experimental operations from day one

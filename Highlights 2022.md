@@ -161,3 +161,10 @@ Milestones
 	- Have had discussions with Chris about the envisioned reconstruction scheme during data taking.   SHREK should be able to support event reconstruction during experimental operations.
 
 Moving forward, need to identify the python packages which need to be installed on the production accounts, and make SHREK available for general use.  Should also begin performing more realistic reconstruction workflows, simulating the calibration steps needed during real data processing, and implementing error handling within the workflows.
+
+
+------------
+
+Other accomplishments:
+
+- Took over responsability for STAR's 

@@ -168,4 +168,4 @@ Moving forward, need to identify the python packages which need to be installed 
 Other accomplishments:
 
 - Took over responsability for STAR's event data mode (StEvent)
-- Implemented 
+- Folded libTable back into the STAR software stack 

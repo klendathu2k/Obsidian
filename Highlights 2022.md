@@ -38,9 +38,8 @@ Milestones:
 - work with stakeholders to define QA metrics for the initial physics evaluations
 ```
 
-With the completion of the STAR forward upgrade, the STAR experiment gains access to several observables at forward rapidity, such as jets, dijets, Drell-Yan dielectrons, and Lambda polarization.  These measurements are enabled by both the high precision tracking, and calorimetry (electromagnetic and hadronic) upgrades.  
+With the completion of the STAR forward upgrade, the STAR experiment gains access to several observables at forward rapidity, such as jets, dijets, Drell-Yan dielectrons, and Lambda polarization.  These measurements are enabled by both the high precision tracking and calorimetry.  To fully maximize the physics impact of the forward hadronic calorimeter, an upgrade of STAR's geant3-based
 
-Maximizing the physics reach of the forward physics program requires 
 
 in the forward direction for the remainder of the RHIC experimental program.  These include inclusive jets and di-jets, direct photons, Drell-Yan dielectrons and Lambda polarization.  These measurements may be made both standalone, and in corrleation with the midrapidity detectors at STAR.
 

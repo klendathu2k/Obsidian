@@ -24,6 +24,33 @@ geant4star timeline
 
 - [[2022-09-29]] Have split the code into preliminary chunk... working from there.
 
+```
+The geant4star application was developed in order to support the STAR forward physics program in runs 23+, enabling for the first time simulations based on the Geant 4 physics models. This is of particular utility in simulating the newly installed hadronic calorimeters in the forward direction.  
+  
+The goal is to integrate geant4star into the standard STAR code base, and work with  
+stakeholders to perform initial physics evaluations.  
+  
+Milestones:  
+- commit working source code for full codebase with geant4star added to git  
+- provide a release in the EVAL area in afs  
+- make pull request for the integration of geant4star on the main branch  
+- responding to comments, break PR into smaller units  
+- work with stakeholders to define QA metrics for the initial physics evaluations
+```
+
+With the completion of the STAR forward upgrade, the STAR experiment gains access to several observables at forward rapidity, incl
+
+in the forward direction for the remainder of the RHIC experimental program.  These include inclusive jets and di-jets, direct photons, Drell-Yan dielectrons and Lambda polarization.  These measurements may be made both standalone, and in corrleation with the midrapidity detectors at STAR.
+
+The forward upgrades include both tracking and calorimetry, including hadronic calorimetry for the first time at STAR in a production context.  
+
+• Hadrons in jets  
+• Direct photons  
+• Drell-Yan !!!"  
+• Lambda polarization  
+• Mid-forward & forward-forward rapidity  
+correlations
+
 
 StEvent Maintence
 
@@ -96,3 +123,15 @@ SHREK timeline
 	- Scaling up to arbitrary size should work from this point forward.
 	- PanDA is on the fritz again...
 	- Shifting back to STAR
+
+```
+**Description/Milestones**: The sPHENIX computing model requires a production system which can handle the envisioned complicated workflow, involving multiple passes of track finding, fitting and distortion corrections in parallel with calorimetry reconstruction. To this end the collaboration has selected PanDA as its workflow management system and Rucio as its data mangement system.  
+  
+The production system will be responsible for submitting reconstruction jobs to PanDA as the data becomes available, documenting the datasets produced and the codes which have been run and under what conditions, and ensuring that data samples can be reproduced at future dates.  
+  
+1. Demonstrate sPHENIX workflows running on PanDA  
+2. Develop a package which can document the reconstruction jobs which are run  
+3. Verify that data processing runs at scale  
+4. Work towards supporting the ongoing mock data challenge(s) with a prototype production system  
+5. Work with stakeholders to refine the system with an eye towards supporting experimental operations from day one
+```

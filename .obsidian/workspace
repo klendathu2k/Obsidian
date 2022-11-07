@@ -4,31 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bb64ca9e26b439de",
+        "id": "1c2cb178982efd6b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "2022-Week-43/Highlights 10-24 to 10-28.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "2f296b3f11fcc31d",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Highlights 2022.md",
-            "mode": "source",
-            "backlinks": true,
-            "source": false
-          },
-          "pinned": true
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Highlights 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Highlights 2022.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -113,8 +90,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2f296b3f11fcc31d",
+  "active": "1c2cb178982efd6b",
   "lastOpenFiles": [
+    "Highlights 2022.md",
+    "STAR Experiment/geant4star/geant4star status 04-20-2022.md",
     "2022-Week-43/Highlights 10-24 to 10-28.md",
     "2022-Week-43/2022-10-26.md",
     "2022-Week-43/2022-10-25.md",
@@ -122,8 +101,6 @@
     "2022-Week-42/2022-10-19.md",
     "2022-Week-42/2022-10-17.md",
     "2022-Week-41/2022-10-11.md",
-    "2022-Week-41/2022-10-10.md",
-    "2022-Week-40/2022-10-04.md",
-    "2022-Week-40/2022-10-03.md"
+    "2022-Week-41/2022-10-10.md"
   ]
 }

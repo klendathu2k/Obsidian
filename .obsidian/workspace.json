@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Highlights 2022.md",
+                "file": "2022/2022-Week-39/2022-09-26.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Highlights 2022.md",
+                "file": "2022/2022-Week-39/2022-09-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Highlights 2022.md"
+                "file": "2022/2022-Week-39/2022-09-26.md"
               }
             }
           }
@@ -108,15 +108,15 @@
   },
   "active": "1117fc1e888c6d2d",
   "lastOpenFiles": [
-    "STAR Experiment/geant4star/geant4star status 04-20-2022.md",
-    "Highlights 2022.md",
-    "STAR Experiment/geant4star/geant4star status.md",
-    "2022-Week-44/2022-10-31.md",
-    "2022-Week-43/Highlights 10-24 to 10-28.md",
-    "ROOT6 Status.md",
-    "2022-Week-40/2022-10-06.md",
+    "2022/2022-Week-39/2022-09-27.md",
+    "2022/2022-Week-39/2022-09-29.md",
+    "2022/2022-Week-39/2022-09-28.md",
+    "2022/2022-Week-39/2022-09-30.md",
     "2022-Week-40/2022-10-03.md",
     "2022-Week-40/2022-10-04.md",
-    "2022-Week-40/2022-10-05.md"
+    "2022-Week-40/2022-10-05.md",
+    "2022-Week-40/2022-10-06.md",
+    "2022-Week-40/2022-10-07.md",
+    "2022-Week-41/2022-10-10.md"
   ]
 }

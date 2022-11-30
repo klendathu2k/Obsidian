@@ -21,6 +21,12 @@ Once *closed* the dataset or container *stays closed*... they cannot be reopened
 
 ... but "reopen" command exists... for priveleged users?  
 
+LFN -- logical file name
+PFN -- physical file name (associated w/ storage???)
+
+
+
+
 ### [Rucio Storage Elements](https://rucio.cern.ch/documentation/rucio_storage_element)
 
 RSE == Rucio Storage Element... the smallest unit of storage space... logical abstraction...  unique ID plus metadata....

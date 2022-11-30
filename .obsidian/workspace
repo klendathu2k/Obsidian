@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled 1.md",
+            "file": "Rucio Notes.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Rucio Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.md"
+                "file": "Rucio Notes.md"
               }
             }
           }
@@ -100,6 +100,7 @@
   },
   "active": "cfa29ebaa823b874",
   "lastOpenFiles": [
+    "Untitled 1.md",
     "Rucio Notes.md",
     "Highlights 2022.md",
     "STAR Experiment/geant4star/geant4star status 04-20-2022.md",
@@ -108,7 +109,6 @@
     "2022-Week-43/2022-10-25.md",
     "2022-Week-42/2022-10-21.md",
     "2022-Week-42/2022-10-19.md",
-    "2022-Week-42/2022-10-17.md",
-    "2022-Week-41/2022-10-11.md"
+    "2022-Week-42/2022-10-17.md"
   ]
 }

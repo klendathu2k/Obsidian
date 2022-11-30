@@ -2,6 +2,8 @@
 
 [Read the Rucio Paper](https://link.springer.com/article/10.1007/s41781-019-0026-3)
 
+[Even more papers](https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=rucio)
+
 ### [Files, Datasets, Containers](https://rucio.cern.ch/documentation/file_dataset_container)
 
 - Files are grouped into datasets

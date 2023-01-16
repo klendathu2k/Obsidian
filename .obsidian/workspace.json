@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2022/2022-Week-30/2022-07-27.md",
+                "file": "2022/2022-Week-37/2022-09-12.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022/2022-Week-30/2022-07-27.md",
+                "file": "2022/2022-Week-37/2022-09-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022/2022-Week-30/2022-07-27.md"
+                "file": "2022/2022-Week-37/2022-09-12.md"
               }
             }
           }
@@ -133,15 +133,15 @@
   },
   "active": "a870a33541c714e5",
   "lastOpenFiles": [
+    "2022/2022-Week-31/2022-08-01.md",
+    "2022/2022-Week-30/2022-07-28.md",
+    "2022/2022-Week-30/2022-07-27.md",
     "2022/2022-Week-30/2022-07-26.md",
     "Tasks.md",
     "Rucio Notes.md",
     "SHREK.md",
     "STAR.md",
     "MC Persistence.md",
-    "Untitled.md",
-    "Pasted image 20220819124629.png",
-    "On Cache Friendly Code.md",
-    "Pasted image 20220829134328.png"
+    "Untitled.md"
   ]
 }

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SHREK.md",
+                "file": "2022/2022-Week-30/2022-07-27.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rucio",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -92,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SHREK.md",
+                "file": "2022/2022-Week-30/2022-07-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SHREK.md"
+                "file": "2022/2022-Week-30/2022-07-27.md"
               }
             }
           }
@@ -132,15 +133,15 @@
   },
   "active": "a870a33541c714e5",
   "lastOpenFiles": [
+    "2022/2022-Week-30/2022-07-26.md",
+    "Tasks.md",
+    "Rucio Notes.md",
+    "SHREK.md",
     "STAR.md",
     "MC Persistence.md",
     "Untitled.md",
     "Pasted image 20220819124629.png",
     "On Cache Friendly Code.md",
-    "Pasted image 20220829134328.png",
-    "Dash Board (dash ... plotly).md",
-    "Memory Optimized Geometry Object Library.md",
-    "Workflows vs Event Driven Architecture.md",
-    "2022-Week-44/2022-11-01.md"
+    "Pasted image 20220829134328.png"
   ]
 }

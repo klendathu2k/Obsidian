@@ -1,0 +1,9 @@
+The Brew Review is a brew pub that will be located in Huntington, NY, in the building that once housed the iconic Book Review bookstore. Our business model is to pay homage to the legacy of the bookstore by creating a space where people can gather, socialize and enjoy a good beer and great food. The Brew Review will serve its own beer, as well as beers from local breweries on Long Island. Our menu will feature good old American pub fare, sourced locally.
+
+Our aim is to create a local bar vibe, where people can unwind after work, meet new friends, and enjoy a comfortable and welcoming atmosphere. We believe that by providing a space that is both inviting and familiar, we can attract a loyal following of locals who will become regulars. We will also market ourselves to tourists who are interested in the history of Huntington, and who want to experience a local bar that celebrates the town's rich culture.
+
+To achieve our goals, we will focus on providing excellent customer service, offering a diverse range of beers, and featuring live music and other events that will draw in customers. We will also develop partnerships with local businesses to showcase their products and services in our pub, further enhancing our community connection.
+
+We anticipate that startup costs will be substantial, due to the need for brewery equipment and renovations to the building. However, we are confident that our unique business model, combined with the popularity of craft beer and local food, will lead to long-term success.
+
+Overall, The Brew Review aims to be a local hotspot for beer enthusiasts and foodies alike, with a focus on community, good times, and great beer.

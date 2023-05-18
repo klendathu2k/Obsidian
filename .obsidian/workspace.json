@@ -11,16 +11,12 @@
             "id": "601d0aa22f60cac6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vision.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -80,7 +76,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,19 +91,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Vision.md"
-              }
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "601d0aa22f60cac6",
+  "active": "03d4a59a7683cbfa",
   "lastOpenFiles": [
     "Vision.md",
     "Untitled 2.md",
